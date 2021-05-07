@@ -10,8 +10,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 function Bottom(){
     return(
         <div class="bottomcss">
-            <Container style={{padding:10, maxWidth:'100%'}}>
-            <Row>
+            <Container style={{padding:10, maxWidth:'100%', margin:'auto'}}>
+            <Row style={{margin:'auto', textAlign:'center'}}>
                 <Col xs={12} xl={3} md={3} style={{margin:'auto', padding:20}}>
                 <Row style={{margin:'auto'}}>
                 <img src="./Images/technical council.png" class="imgbottomcss" style={{maxWidth:250, margin:'auto'}}/>
