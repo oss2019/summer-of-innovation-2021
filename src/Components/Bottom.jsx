@@ -4,33 +4,62 @@ import {GoLocation} from 'react-icons/go';
 import {AiOutlineInstagram} from 'react-icons/ai'
 
 import "./Bottom.css";
+import { Col, Container, Row } from 'react-bootstrap';
+
 
 function Bottom(){
     return(
         <div class="bottomcss">
-        <div class="logocss">
-          <img src="./Images/technical council.png" class="imgbottomcss"></img>
-          <h5>Technical Council</h5>
-          <h6>IIT Dharwad</h6>
-          <h6 style={{marginTop: "10px"}}><a href="https://www.instagram.com/technical.council_iitdh/" style={{textDecoration: "none",color:"white"}}><AiOutlineInstagram />Follow Us</a></h6>
-        </div>
-        <div class="socialmedia">
-        <h3>Social Media</h3>
-        <a href="https://oss2019.github.io/" style={{textDecoration: "none",color:"white"}} ><p className="acss">OSS</p></a>
-        <a href="https://www.iitdh.ac.in/iic/" style={{textDecoration: "none",color:"white"}} ><p className="acss">IIC</p></a>
-        <a href="https://www.iitdh.ac.in/" style={{textDecoration: "none",color:"white"}} ><p className="acss">IIT Dharwad</p></a>
-        </div>
-        <div class="contactcss">
+            <Container style={{padding:10, maxWidth:'100%'}}>
+            <Row>
+                <Col xs={12} xl={3} md={3} style={{margin:'auto', padding:20}}>
+                <Row style={{margin:'auto'}}>
+                <img src="./Images/technical council.png" class="imgbottomcss" style={{maxWidth:250, margin:'auto'}}/>
+                </Row>
+                <Row style={{margin:'auto', marginTop:10}}>
+                <h6 style={{margin:'auto', textAlign:'center'}}>Technical Council</h6><br/>
+                </Row>
+                <Row style={{margin:'auto', marginTop:0}}>
+                <h7 style={{margin:'auto', textAlign:'center'}}>IIT Dharwad</h7>
+                </Row>
+                <Row style={{margin:'auto'}}>
+                <p style={{margin:'auto',marginTop: "10px", fontSize:15, textAlign:'center'}}><a href="https://www.instagram.com/technical.council_iitdh/" style={{textDecoration: "none",color:"white"}}><AiOutlineInstagram />Follow Us</a></p>
+                </Row >
+                </Col>
 
-            <h3><GoLocation class="iconcss" />Contact Info</h3>
-            <p>
-                Indian Institute of Technology, Dharwad,
-                Karnataka 580011
-            </p>
-            <h3><FaEnvelope class="iconcss" />  Email</h3>
-            <p>gstech@iitdh.ac.in</p>
-
-        </div>
+                <Col xl={4} md={3} xs={12} style={{margin:'auto', padding:20}}>
+                    <Row style={{margin:'auto', textAlign:'center'}}>
+                    <h2 style={{margin:'auto', textAlign:'center'}}>Other Links</h2>
+                    </Row>
+                    <Row style={{margin:'auto'}}>
+                    <a href="https://oss2019.github.io/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center'}}>OSS</p></a>
+                    </Row>
+                    <Row style={{margin:'auto'}}>
+                    <a href="https://www.iitdh.ac.in/iic/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center'}}>IIC</p></a>
+                    </Row>
+                    <Row style={{margin:'auto'}}>
+                    <a href="https://www.iitdh.ac.in/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center'}}>IIT Dharwad</p></a>
+                    </Row>
+                </Col>
+                <Col xl={5} md={6} xs={12} style={{margin:'auto', padding:20}}>
+                    <Row style={{margin:'auto', textAlign:'center'}}>
+                        <h3 style={{margin:'auto',textAlign:'center'}}><GoLocation class="iconcss" />Contact Info</h3>
+                    </Row>
+                    <Row style={{margin:'auto',textAlign:'center'}}>
+                    <p style={{margin:'auto', textAlign:'center'}}>
+                        Indian Institute of Technology, Dharwad,
+                        Karnataka 580011
+                    </p>   
+                    </Row >
+                    <Row style={{margin:'auto', padding:5, textAlign:'center'}}>
+                        <h3 style={{margin:'auto', textAlign:'center'}}><FaEnvelope class="iconcss" />  Email</h3>
+                    </Row>
+                    <Row style={{margin:'auto', textAlign:'center'}}>
+                        <p style={{margin:'auto', textAlign:'center'}}>gstech@iitdh.ac.in</p>
+                    </Row>
+                </Col>
+            </Row>
+            </Container>
         </div>  
     )
   }

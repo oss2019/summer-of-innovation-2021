@@ -3,26 +3,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 
 .topcss {
-  height: 650px;
+  min-height: 100vh;
   padding-top: 0px;
   margin-top: 0;
+  padding:20px;
+  /* padding-top: 50px; */
   background-image: linear-gradient(to left, #0072ff, #00c6ff, #56ccf2);
   color: white;
-  font-size: 6rem;
+  font-size: 5rem;
+  width: 100%;
+  max-width: 100%;
 }
 
 .topcss h2 {
-  font-size: 5.2rem;
+  font-size: 4rem;
   color: #000428;
-  padding-left: 35px;
-  margin-top: 50px;
+  padding: 10px;
+  padding-top: 30px;
+  margin:auto;
   font-family: "Lora", serif;
 }
 
 .topcss h4 {
-  font-size: 2rem;
-  padding-left: 35px;
-  margin-top: 30px;
+  font-size: 1.5rem;
+  padding-top: 5vh;
+  margin: auto;
+  /* padding-left: 35px; */
+  /* margin-top: 30px; */
   color: #000428;
   font-family: "Itim", cursive;
 }
@@ -64,7 +71,7 @@
 }
 
 .ovcss {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #000428;
   font-family: "Roboto Mono", monospace;
 }
@@ -112,14 +119,18 @@
 @media all and (max-width: 1200px) {
   body {
     width: 100%;
+    max-width: 100%;
   }
   .topcss {
-    height: 550px;
+    min-height: 100vh;
     font-size: 50px;
+    
+  width: 100%;
+  max-width: 100%;
   }
 
   .topcss h4 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 
   .imagecss {
@@ -164,18 +175,22 @@
 @media all and (max-width: 992px) {
   body {
     width: 100%;
+    max-width: 100%;
   }
 
   .topcss {
-    height: 570px;
+    min-height: 100vh;
+    
+  width: 100%;
+  max-width: 100%;
   }
 
   .topcss h2 {
-    font-size: 50px;
+    font-size: 3rem;
   }
 
   .topcss h4 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 
   .imagecss {

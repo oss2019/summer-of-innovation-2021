@@ -1,15 +1,15 @@
 .bottomcss {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 28% 30% 32%;
-  grid-column-gap: 40px;
+  grid-column-gap: 40px; */
 
   margin-top: 20px;
 
   background-color: #000428;
   color: white;
-  font-size: 120%;
+  /* font-size: 120%; */
   font-family: "Montserrat", sans-serif;
-  padding: 1rem 0 2rem 0;
+  /* padding: 1rem 0 2rem 0; */
 }
 
 .bottomcss h3 {
