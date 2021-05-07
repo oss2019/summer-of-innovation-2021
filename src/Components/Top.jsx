@@ -1,8 +1,9 @@
 import React from 'react';
 import { MDBJumbotron, MDBContainer } from "mdbreact";
 import "./Top.css";
-import Event from './Events.jsx'
+import Event from './Events.jsx';
 import Header from './header';
+import Logos from './Logos.jsx'; 
 
 
 function Top(){
@@ -35,6 +36,12 @@ function Top(){
         </MDBJumbotron>
 
         <Event />
+
+        <div style={{marginTop: '120px',marginBottom: '80px'}}>
+         <h1 className="ovcss" style={{textAlign: "center",marginBottom: "80px"}}>OUR PARTNERS</h1>
+        <Logos />
+        </div>
+        
       </div>
     )
   }
