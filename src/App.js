@@ -11,8 +11,8 @@ function App(){
         <div>
 
         <Route exact path="/" component={Main} />
-        <Route exact path="/soiteam" component={Team} />
-        <Route exact path="/soitimeline" component={Timeline} />
+        <Route exact path="/team" component={Team} />
+        <Route exact path="/timeline" component={Timeline} />
         </div>
     );
 }
