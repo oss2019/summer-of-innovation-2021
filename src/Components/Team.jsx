@@ -15,7 +15,7 @@ function Team(){
          <Header />
         </div>
            
-         <h2>Our Team</h2>
+         <h2 style={{marginTop: '40px',marginBottom: '0px'}}>Our Team</h2>
         </div>
         <Container style={{maxWidth:'100%', margin:'auto'}}>
         <h3 className="h3class">ORGANIZER :</h3>

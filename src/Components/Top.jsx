@@ -13,7 +13,7 @@ function Top(){
         
         <div className="topcss">
            <Header />
-           <Container>
+           <Container style={{paddingTop: '9vh',paddingLeft: 0, marginLeft: 10}}>
            <div className="white3d2"></div> 
            <div className="white3d"></div>
            <h2>Summer of <br />

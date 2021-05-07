@@ -32,18 +32,18 @@ function Bottom(){
                     <h2 style={{margin:'auto', textAlign:'center'}}>Other Links</h2>
                     </Row>
                     <Row style={{margin:'auto'}}>
-                    <a href="https://oss2019.github.io/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center'}}>OSS</p></a>
+                    <a href="https://oss2019.github.io/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center', marginTop: '5px'}}>OSS</p></a>
                     </Row>
                     <Row style={{margin:'auto'}}>
-                    <a href="https://www.iitdh.ac.in/iic/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center'}}>IIC</p></a>
+                    <a href="https://www.iitdh.ac.in/iic/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center', marginTop: '5px'}}>IIC</p></a>
                     </Row>
                     <Row style={{margin:'auto'}}>
-                    <a href="https://www.iitdh.ac.in/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center'}}>IIT Dharwad</p></a>
+                    <a href="https://www.iitdh.ac.in/" style={{textDecoration: "none",color:"white",margin:'auto'}} ><p className="acss" style={{margin:'auto', textAlign:'center', marginTop: '5px'}}>IIT Dharwad</p></a>
                     </Row>
                 </Col>
                 <Col xl={5} md={6} xs={12} style={{margin:'auto', padding:20}}>
                     <Row style={{margin:'auto', textAlign:'center'}}>
-                        <h3 style={{margin:'auto',textAlign:'center'}}><GoLocation class="iconcss" />Contact Info</h3>
+                        <h2 style={{margin:'auto',textAlign:'center'}}><GoLocation class="iconcss" />Contact Info</h2>
                     </Row>
                     <Row style={{margin:'auto',textAlign:'center'}}>
                     <p style={{margin:'auto', textAlign:'center'}}>
@@ -51,8 +51,8 @@ function Bottom(){
                         Karnataka 580011
                     </p>   
                     </Row >
-                    <Row style={{margin:'auto', padding:5, textAlign:'center'}}>
-                        <h3 style={{margin:'auto', textAlign:'center'}}><FaEnvelope class="iconcss" />  Email</h3>
+                    <Row style={{margin:'auto', padding:5, textAlign:'center', marginTop: '10px'}}>
+                        <h2 style={{margin:'auto', textAlign:'center'}}><FaEnvelope class="iconcss" />  Email</h2>
                     </Row>
                     <Row style={{margin:'auto', textAlign:'center'}}>
                         <p style={{margin:'auto', textAlign:'center'}}>gstech@iitdh.ac.in</p>

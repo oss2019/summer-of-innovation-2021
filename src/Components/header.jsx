@@ -59,5 +59,6 @@ const textCol = {
   paddingRight: '35px',
   margin: 'auto',
   fontSize: '10',
+  fontFamily: '"Itim", cursive'
 }
 export default Header;
