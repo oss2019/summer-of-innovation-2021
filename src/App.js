@@ -10,9 +10,9 @@ function App(){
     return(
         <div>
 
-        <Route exact path="/#/" component={Main} />
-        <Route exact path="/summer-of-innovation/#/team" component={Team} />
-        <Route exact path="/#/timeline" component={Timeline} />
+        <Route exact path="/" component={Main} />
+        <Route exact path="/team" component={Team} />
+        <Route exact path="/timeline" component={Timeline} />
         </div>
     );
 }
