@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
 .cardcss {
-  width: 18rem;
+  width: 270px;
   box-shadow: 5px 10px 8px #888888;
   border-radius: 20px;
+  margin: auto;
+  /* margin-top: 10; */
+  /* padding: 5; */
 }
 .cardcss img {
   border-top-right-radius: 20px;

@@ -34,7 +34,7 @@ const Header = (props) =>
           fontSize: '1rem',
         }}
       >
-        <img src='./Images/logo.png' style={{ maxWidth: '70px', maxHeight:'70px' }} />
+        <img src='./Images/logo.png' style={{ maxWidth: '70px', maxHeight:'30px' }} />
 
         <MDBNavbarToggler
             onClick={toggleCollapse}

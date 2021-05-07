@@ -2,10 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 
 .column {
-  margin-top: 5px;
+  /* margin-top: 5px;
   margin-bottom: 30px;
-  margin-left: 20px;
-  padding: 10px;
+  margin-left: 0; */
+  /* margin: auto; */
+  /* padding-top: 10px; */
+  margin-top: 20px;
+  min-width: 300px;
+  margin:10;
 }
 
 .h3class {
@@ -18,17 +22,20 @@
 .Teamtopcss h2 {
   font-size: 5.5rem;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   padding-top: 12px;
   padding-bottom: 30px;
   font-family: "Lora", serif;
+  /* max-height: 50; */
 }
 
 .row {
   margin-left: 0px;
   margin-right: 0px;
+  margin: auto;
+  width:100%;
 }
 
 .zcss {
