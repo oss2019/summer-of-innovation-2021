@@ -16,11 +16,13 @@ function Top(){
            <Container>
            <div className="white3d2"></div> 
            <div className="white3d"></div>
-           <h2>Summer of Innovation 2021</h2>
+           <h2>Summer of <br />
+           Innovation<br />
+           2021</h2>
 
            <h4>This Summer Conquer your fallacies <br />and carve your finesse</h4>
 
-           <img src={('./Images/creative.png')} className="imagecss" alt=""/>
+           <img src={('./Images/creative.png')} className="imagecss" alt="image not found"></img>
            </Container>
         </div>
 
