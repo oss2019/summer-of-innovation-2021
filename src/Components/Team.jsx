@@ -9,13 +9,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 function Team(){
     return(
     <div className="zcss">
-   
+
+        
+         <div style={{backgroundColor: '#0072ff', width:'100%'}}>
+           <Header />
+         </div>
         <div class="Teamtopcss">
-        <div style={{backgroundColor: '#0072ff', maxHeight:50, width:'100%'}}>
-         <Header />
-        </div>
-           
-         <h2 style={{marginTop: '40px',marginBottom: '0px'}}>Our Team</h2>
+         <h2 style={{marginTop: '40px',marginBottom: '0'}}>Our Team</h2>
         </div>
         <Container style={{maxWidth:'100%', margin:'auto'}}>
         <h3 className="h3class">ORGANIZER :</h3>
