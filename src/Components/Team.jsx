@@ -13,7 +13,7 @@ function Team(){
         
          <div style={{backgroundColor: '#0072ff', width:'100%'}}>
            <Header />
-         </div>
+          </div>
         <div class="Teamtopcss">
          <h2 style={{marginTop: '40px',marginBottom: '0'}}>Our Team</h2>
         </div>

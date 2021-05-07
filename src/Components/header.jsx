@@ -43,9 +43,9 @@ const Header = (props) =>
 
         <MDBCollapse id='navbarCollapse' className={'collapse'} isOpen={collapseID} navbar>
           <MDBNavbarNav right>
-          <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/"   style={textCol}> HOME</Nav.Link>
-          <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/team"  style={textCol}>TEAM</Nav.Link>
-            <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/timeline" style={textCol} >TIMELINE</Nav.Link>
+          <Nav.Link href="/"   style={textCol}> HOME</Nav.Link>
+          <Nav.Link href="/#/team"  style={textCol}>TEAM</Nav.Link>
+            <Nav.Link href="/#/timeline" style={textCol} >TIMELINE</Nav.Link>
             </MDBNavbarNav>
           </MDBCollapse>
       </MDBNavbar>
