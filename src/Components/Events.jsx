@@ -2,12 +2,15 @@ import React,{useState}  from 'react'
 import './Events.css';
 import { Button, Modal} from 'react-bootstrap';
 
-function Event(){
+function Event(props){
 
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    if(props.eventIsHere) return;
+    setShow(true);
+  }
 
   
    return (
@@ -30,7 +33,7 @@ function Event(){
             <div class="cards">
                 <div onClick={handleShow} class="card event-card">
                   <div class="card-body event-card-body aimg_css">
-                  <a  href="#" className="Nodeco">
+                  <a  href={props.eventIsHere?"/a":"#"} className="Nodeco">
                     <h2>Web Development</h2>
                     <div class="line">
                       <p> </p>
@@ -42,7 +45,7 @@ function Event(){
 
             <div class="card event-card">
               <div class="card-body event-card-body cimg_css">
-              <a onClick={handleShow} href="#" className="Nodeco">
+              <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                 <h2>Robotics</h2>
                 <div class="line">
                   <p> </p>
@@ -54,7 +57,7 @@ function Event(){
 
             <div class="card event-card">
               <div class="card-body event-card-body dimg_css">
-              <a onClick={handleShow} href="#" className="Nodeco">
+              <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                 <h2>Competitive Coding</h2>
                 <div class="line">
                   <p> </p>
@@ -66,7 +69,7 @@ function Event(){
     
             <div class="card event-card">
               <div class="card-body event-card-body eimg_css ">
-              <a onClick={handleShow} href="#" className="Nodeco">
+              <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                 <h2>Entrepreneurship</h2>
                 <div class="line">
                   <p> </p>
@@ -78,7 +81,7 @@ function Event(){
     
             <div class="card event-card">
              <div class="card-body event-card-body fimg_css ">
-               <a onClick={handleShow} href="#" className="Nodeco">
+               <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                <h2>Object Recognition (AI)</h2>
                 <div class="line">
                   <p></p>
@@ -90,7 +93,7 @@ function Event(){
            
               <div class="card event-card">
                 <div class="card-body event-card-body gimg_css ">
-                <a onClick={handleShow} href="#" className="Nodeco">
+                <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                   <h2>Sentiment of text (AI)</h2>
                   <div class="line">
                     <p> </p>
@@ -102,7 +105,7 @@ function Event(){
 
               <div class="card event-card">
                 <div class="card-body event-card-body himg_css ">
-                <a onClick={handleShow} href="#" className="Nodeco">
+                <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                   <h2>Twitter bot for IPL updates (AI)</h2>
                   <div class="line">
                     <p> </p>
@@ -114,7 +117,7 @@ function Event(){
 
               <div class="card event-card">
                 <div class="card-body event-card-body iimg_css ">
-                <a onClick={handleShow} href="#" className="Nodeco">
+                <a onClick={handleShow} href={props.eventIsHere?"/a":"#"} className="Nodeco">
                   <h2>Image Classification (AI)</h2>
                   <div class="line">
                     <p> </p>
