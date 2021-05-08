@@ -7,7 +7,10 @@
   padding-top: 0px;
   margin-top: 0;
   padding: 20px;
-  background-image: linear-gradient(to left, #0072ff, #00c6ff, #56ccf2);
+  /* background-image: linear-gradient(to left, #0072ff, #00c6ff, #56ccf2); */
+  background-image: url("./backimg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   font-size: 5rem;
   width: 100%;
