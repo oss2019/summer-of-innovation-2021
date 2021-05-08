@@ -22,10 +22,10 @@ function Top(){
       const currDate = new Date();
       console.log(currDate, testDate, currDate.getTime()>moment(testDate).toDate().getTime());
       if(currDate.getTime() > moment(testDate).toDate().getTime()) setEventDateCheck(true);
-      setTimeout(() => {
-        // setShow(true)
-      }, 1000)
-      setTester(tester+1);
+      // setTimeout(() => {
+      //   // setShow(true)
+      // }, 1000)
+      // setTester(tester+1);
       return () => {  };
     }, [tester]);
     return(
