@@ -8,8 +8,7 @@ import Logos from './Logos.jsx';
 import moment from 'moment';
 import FlipCountdown from '@rumess/react-flip-countdown';
 
-var testDate =  
-"2021-05-11 23:59:59"; 
+var testDate = "2021-05-11 23:59:59"; 
 // moment().utcOffset("+05:30").add(1, 'm').format('YYYY-MM-DD hh:mm:ss');
 
 
@@ -45,7 +44,16 @@ function Top(){
            <img src={('./Images/creative.png')} className="imagecss" alt="image not found"></img>
            </Container>
         </div>
-
+        <div style={{maxWidth:'100%', marginTop:50}}>
+        { !eventDateCheck?   
+           <>
+           <h2 className=" text-center display-4 font-bold ovcss">Starts In</h2>
+           <FlipCountdown
+              theme="light"
+              endAt={testDate}
+                // endAt={'2021-05-08 7:40:00'} // Date/Time
+            /></>:<></>}
+        </div>
         <MDBJumbotron fluid>
           <MDBContainer >
            <h2 className=" text-center display-4 font-bold ovcss">Overview</h2>
@@ -60,14 +68,8 @@ function Top(){
           </MDBContainer>
         </MDBJumbotron>
         <div style={{maxWidth:'100%'}}>
-         { eventDateCheck? <Event /> : 
-           <>
-           <h2 className=" text-center display-4 font-bold ovcss">Starts In</h2>
-           <FlipCountdown
-              theme="light"
-              endAt={testDate}
-                // endAt={'2021-05-08 7:40:00'} // Date/Time
-            /></>}
+        <Event />
+         
         
         </div>
         <div style={{marginTop: '120px',marginBottom: '80px'}}>
