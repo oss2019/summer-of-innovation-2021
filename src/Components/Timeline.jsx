@@ -38,7 +38,7 @@ return(
             <MDBIcon icon="trophy" size="3x" className="cyan-text" style={{color: '#0072ff'}}/>
             <h5 className="font-weight-bold my-4 fontcss" style={{color: '#0072ff'}}>Certificate of Excellence:</h5>
             <p className="grey-text mb-md-0 mb-5 fontcss">
-            For top 3 teams in the event. 
+            For top 3 teams in each event. 
             </p>
           </MDBCol>
           <MDBCol md="4">
@@ -115,7 +115,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<BiCheck className="colorcss" />}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Report For Case Study Would Be Required To Be Submitted</h4>
+    <h4 className="vertical-timeline-element-title fontcss">Last Date To Submit Case Study Report</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement

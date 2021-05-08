@@ -8,7 +8,7 @@ import Logos from './Logos.jsx';
 import moment from 'moment';
 import FlipCountdown from '@rumess/react-flip-countdown';
 
-var testDate = "2021-05-08 17:45:00"; 
+var testDate = "2021-05-11 23:59:59"; 
 // moment().utcOffset("+05:30").add(1, 'm').format('YYYY-MM-DD hh:mm:ss');
 
 
