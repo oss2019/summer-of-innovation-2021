@@ -57,6 +57,7 @@ const textCol = {
   color: 'white',
   height: '40px',
   paddingRight: '35px',
+  paddingTop: '10px',
   margin: 'auto',
   fontSize: '10',
   fontFamily: '"Itim", cursive'

@@ -114,6 +114,10 @@
   text-decoration: none;
 }
 
+.modalcss h1 {
+  color: blueviolet;
+}
+
 @media all and (max-device-width: 480px) {
   .event-card {
     /* width: 70%; */
