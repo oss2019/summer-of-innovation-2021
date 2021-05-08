@@ -21,7 +21,7 @@ function Event() {
 
         <div class="card event-card">
           <div class="card-body event-card-body cimg_css">
-          <a href="" className="Nodeco">
+          <a href="https://drive.google.com/file/d/1lzfwBidFNqHcZe0h7VmcO0yfGVNnop4R/view?usp=sharing" className="Nodeco">
             <h2>Robotics</h2>
             <div class="line">
               <p> </p>
