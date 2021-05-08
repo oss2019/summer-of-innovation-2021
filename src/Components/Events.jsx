@@ -3,13 +3,14 @@ import './Events.css';
 
 function Event() {
     return (
+
     <div class="Event-section">
       <h1 className="h1css">Events</h1>
-
+      
     <div class="cards">
         <div class="card event-card">
           <div class="card-body event-card-body aimg_css">
-          <a href="https://drive.google.com/file/d/1p4vndy2Yj5sgMTwKUYKrnpl0qWuyGN0F/view?usp=sharing" className="Nodeco">
+          <a className="Nodeco">
             <h2>Web Development</h2>
             <div class="line">
               <p> </p>
