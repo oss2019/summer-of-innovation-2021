@@ -18,9 +18,9 @@ function Event(props){
 
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title style={{ color: "#0072ff"}}>COMING SOON !!!!</Modal.Title>
+            <Modal.Title style={{ color: "#0072ff",fontFamily: "Itim, cursive"}}>COMING SOON !!!!</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Details about the event will be soon convyed</Modal.Body>
+          <Modal.Body style={{fontFamily: "Itim, cursive"}}>Details about the event will be soon convyed.</Modal.Body>
           <Modal.Footer>
             <Button variant="primary" onClick={handleClose}>
               Close
