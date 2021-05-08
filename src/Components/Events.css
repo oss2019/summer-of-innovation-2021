@@ -115,16 +115,17 @@
 }
 
 @media all and (max-device-width: 480px) {
+ 
   .event-card {
-    /* width: 70%; */
-    font-size: 90%;
-    width: 20rem;
-    height: 13rem;
+    font-size: 80%;
+    width: 22rem;
+    height: 12rem;
+  }
+  .event-card h2{
+    font-size: 143%;
   }
   .Event-section {
     font-size: 120%;
   }
 
-  .Event-section h1 {
-  }
 }

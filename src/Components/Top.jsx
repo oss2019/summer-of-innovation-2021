@@ -13,14 +13,16 @@ function Top(){
         
         <div className="topcss">
            <Header />
-           <Container style={{paddingTop: '9vh',paddingLeft: 0, marginLeft: 10}}>
+           <Container style={{paddingTop: '4vh',paddingLeft: 0, marginLeft: 10}}>
            <div className="white3d2"></div> 
            <div className="white3d"></div>
            <h2>Summer of <br />
            Innovation<br />
            2021</h2>
 
-           <h4>This Summer Conquer your fallacies <br />and carve your finesse</h4>
+           <h4>This Summer Conquer your fallacies
+             <br />
+             and carve your finesses.</h4>
 
            <img src={('./Images/creative.png')} className="imagecss" alt="image not found"></img>
            </Container>
