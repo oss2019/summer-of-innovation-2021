@@ -8,7 +8,7 @@ import Logos from './Logos.jsx';
 import moment from 'moment';
 import FlipCountdown from '@rumess/react-flip-countdown';
 
-var testDate = "2021-05-11 23:59:59"; 
+var testDate = "2021-05-08 17:45:00"; 
 // moment().utcOffset("+05:30").add(1, 'm').format('YYYY-MM-DD hh:mm:ss');
 
 
@@ -22,10 +22,6 @@ function Top(){
       const currDate = new Date();
       console.log(currDate, testDate, currDate.getTime()>moment(testDate).toDate().getTime());
       if(currDate.getTime() > moment(testDate).toDate().getTime()) setEventDateCheck(true);
-      // setTimeout(() => {
-      //   // setShow(true)
-      // }, 1000)
-      // setTester(tester+1);
       return () => {  };
     }, [tester]);
     return(
@@ -68,7 +64,7 @@ function Top(){
           </MDBContainer>
         </MDBJumbotron>
         <div style={{maxWidth:'100%'}}>
-        <Event />
+        <Event eventIsHere={eventDateCheck}/>
          
         
         </div>
