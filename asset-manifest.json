@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/summer-of-innovation-2021/static/css/main.9352a325.chunk.css",
-    "main.js": "/summer-of-innovation-2021/static/js/main.946355d9.chunk.js",
-    "main.js.map": "/summer-of-innovation-2021/static/js/main.946355d9.chunk.js.map",
+    "main.css": "/summer-of-innovation-2021/static/css/main.85b3e3bb.chunk.css",
+    "main.js": "/summer-of-innovation-2021/static/js/main.10ac16d3.chunk.js",
+    "main.js.map": "/summer-of-innovation-2021/static/js/main.10ac16d3.chunk.js.map",
     "runtime-main.js": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js",
     "runtime-main.js.map": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js.map",
     "static/css/2.489a6532.chunk.css": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css",
-    "static/js/2.f23172ef.chunk.js": "/summer-of-innovation-2021/static/js/2.f23172ef.chunk.js",
-    "static/js/2.f23172ef.chunk.js.map": "/summer-of-innovation-2021/static/js/2.f23172ef.chunk.js.map",
+    "static/js/2.6ee1c35a.chunk.js": "/summer-of-innovation-2021/static/js/2.6ee1c35a.chunk.js",
+    "static/js/2.6ee1c35a.chunk.js.map": "/summer-of-innovation-2021/static/js/2.6ee1c35a.chunk.js.map",
     "index.html": "/summer-of-innovation-2021/index.html",
     "static/css/2.489a6532.chunk.css.map": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css.map",
-    "static/css/main.9352a325.chunk.css.map": "/summer-of-innovation-2021/static/css/main.9352a325.chunk.css.map",
-    "static/js/2.f23172ef.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.f23172ef.chunk.js.LICENSE.txt",
+    "static/css/main.85b3e3bb.chunk.css.map": "/summer-of-innovation-2021/static/css/main.85b3e3bb.chunk.css.map",
+    "static/js/2.6ee1c35a.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.6ee1c35a.chunk.js.LICENSE.txt",
     "static/media/Events.css": "/summer-of-innovation-2021/static/media/webdev_u.06108c1c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.101a8b7d.js",
     "static/css/2.489a6532.chunk.css",
-    "static/js/2.f23172ef.chunk.js",
-    "static/css/main.9352a325.chunk.css",
-    "static/js/main.946355d9.chunk.js"
+    "static/js/2.6ee1c35a.chunk.js",
+    "static/css/main.85b3e3bb.chunk.css",
+    "static/js/main.10ac16d3.chunk.js"
   ]
 }
