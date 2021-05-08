@@ -1,10 +1,10 @@
 import React from 'react';
-// import { Row, Col } from "mdbreact";
 import Bottom from './Bottom.jsx'
 import Card from './Card.jsx';
 import './Team.css'
 import Header from './header';
 import { Col, Container, Row } from 'react-bootstrap';
+import ScrollToTopBtn from "./scroll.jsx";
 
 function Team(){
     return(
@@ -83,6 +83,7 @@ function Team(){
         <div style={{maxWidth:'100%'}}>
         <Bottom />
         </div>
+        <ScrollToTopBtn />
     </div>
     );
 }

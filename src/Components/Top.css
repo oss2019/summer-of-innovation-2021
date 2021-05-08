@@ -19,12 +19,13 @@
   color: #000428;
   padding: 10px;
   padding-top: 30px;
+  padding-left: 0;
   margin: auto;
   font-family: "Lora", serif;
 }
 
 .topcss h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top: 5vh;
   margin: auto;
   /* padding-left: 35px; */
@@ -121,7 +122,7 @@
     max-width: 100%;
   }
   .topcss {
-    min-height: 100vh;
+    min-height: 95vh;
     font-size: 50px;
 
     width: 100%;
@@ -178,7 +179,7 @@
   }
 
   .topcss {
-    min-height: 100vh;
+    min-height: 95vh;
 
     width: 100%;
     max-width: 100%;

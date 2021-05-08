@@ -28,9 +28,9 @@ function Event(){
             <h1 className="h1css">Events</h1>
 
             <div class="cards">
-                <div class="card event-card">
+                <div onClick={handleShow} class="card event-card">
                   <div class="card-body event-card-body aimg_css">
-                  <a onClick={handleShow} href="#" className="Nodeco">
+                  <a  href="#" className="Nodeco">
                     <h2>Web Development</h2>
                     <div class="line">
                       <p> </p>

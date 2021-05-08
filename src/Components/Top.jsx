@@ -39,7 +39,7 @@ function Top(){
            Innovation<br />
            2021</h2>
 
-           <h4>This Summer Conquer your fallacies <br />and carve your finesse</h4>
+           <h4>This Summer Conquer your<br /> fallacies and carve your finesse.</h4>
 
            <img src={('./Images/creative.png')} className="imagecss" alt="image not found"></img>
            </Container>
