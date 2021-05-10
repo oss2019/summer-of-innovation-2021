@@ -50,32 +50,33 @@ function Team(){
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Nandini.jpg' title="NANDINI D" email="200030036@iitdh.ac.in"/></Col>
          </Row>
 
-         <h3 className="h3class">CODECHEF CHAPTERS TEAM</h3>
+         <h3 className="h3class">CODECHEF CHAPTERS TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/1.jfif' title="SHIVAM CHATURVEDI " email="180010032@iitdh.ac.in"/></Col>
          </Row>
 
-         <h3 className="h3class">TWITTER BOT FOR IPL UPDATES TEAM</h3>
+         <h3 className="h3class">TWITTER BOT FOR IPL UPDATES PROBLEM STATEMENT TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Akhilesh.png' title="BHARADWAJ AKHILESH" email="180010009@iitdh.ac.in"/></Col>
+            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/1.jfif' title="SHIVAM CHATURVEDI " email="180010032@iitdh.ac.in"/></Col>
          </Row>
 
-         <h3 className="h3class">OBJECT DETECTION TEAM</h3>
+         <h3 className="h3class">OBJECT DETECTION PROBLEM STATEMENT TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Janhavi.png' title="JANHAVI DADHANIA" email="180010009@iitdh.ac.in"/></Col>
          </Row>
 
-         <h3 className="h3class">SENTIMENT OF TEXT TEAM</h3>
+         <h3 className="h3class">SENTIMENT OF TEXT PROBLEM STATEMENT TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Harshraj.jpg' title="HARSH RAJ" email="180010009@iitdh.ac.in"/></Col>
          </Row>
 
-         <h3 className="h3class">IMAGE CLASSIFICATION TEAM</h3>
+         <h3 className="h3class">IMAGE CLASSIFICATION PROBLEM STATEMENT TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Akhilesh.png' title="BHARADWAJ AKHILESH" email="180010009@iitdh.ac.in"/></Col>
          </Row>
 
-         <h3 className="h3class">ROBOTICS PROBLEM STATEMENT TEAM</h3>
+         <h3 className="h3class">ROBOTICS PROBLEM STATEMENT TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Sohan.jpg' title="SOHAN ANISETTY" email="180030040@iitdh.ac.in"/></Col>
          </Row>         
