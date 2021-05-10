@@ -55,7 +55,7 @@ function Event(props){
               </div>
             </div>
 
-            {/* <div class="card event-card">
+            <div class="card event-card">
               <div class="card-body event-card-body dimg_css">
               <a onClick={handleShow} href={props.eventIsHere?"#":"#"} className="Nodeco">
                 <h2>Competitive Coding</h2>
@@ -65,7 +65,7 @@ function Event(props){
                   <p>Know more</p>
                 </a>
               </div>
-            </div> */}
+            </div>
     
             <div class="card event-card">
               <div class="card-body event-card-body eimg_css ">
