@@ -69,7 +69,7 @@ function Event(props){
     
             <div class="card event-card">
               <div class="card-body event-card-body eimg_css ">
-              <a onClick={handleShow} href={props.eventIsHere?"https://drive.google.com/file/d/19TsYBmGQP6tGP-J-xWmbCnJRisnW18EG/view?usp=sharing":"#"} className="Nodeco">
+              <a onClick={handleShow} href={props.eventIsHere?"https://drive.google.com/file/d/1R9LofqrmIr0gaU5YCdyL3mw0HxdZ1NSN/view?usp=sharing":"#"} className="Nodeco">
                 <h2>Entrepreneurship</h2>
                 <div class="line">
                   <p> </p>
