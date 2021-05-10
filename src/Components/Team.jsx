@@ -48,12 +48,12 @@ function Team(){
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Veekshita.jpg' title="VEEKSHITA NAIDU BALLA" email="200030010@iitdh.ac.in"/></Col>
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Dharani.jpg' title="DHARANI SAMSRITHA" email="200030039@iitdh.ac.in"/></Col>
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Nandini.jpg' title="NANDINI D" email="200030036@iitdh.ac.in"/></Col>
-            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Rupesh.jpg' title="RUPESH KALANTRE" email="180010029@iitdh.ac.in"/></Col>
          </Row>
 
          <h3 className="h3class">CODECHEF CHAPTERS TEAM:</h3>
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Shivam.jpeg' title="SHIVAM CHATURVEDI " email="180010032@iitdh.ac.in"/></Col>
+            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Rupesh.jpg' title="RUPESH KALANTRE" email="180010029@iitdh.ac.in"/></Col>
          </Row>
 
          <h3 className="h3class">TWITTER BOT FOR IPL UPDATES PROBLEM STATEMENT TEAM:</h3>
