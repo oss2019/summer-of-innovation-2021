@@ -82,7 +82,7 @@ return(
     <h4 className="vertical-timeline-element-title fontcss fontcss">Last Day to Register</h4>
     </VerticalTimelineElement>
 
-    <VerticalTimelineElement
+    {/* <VerticalTimelineElement
     className="vertical-timeline-element--work check"
     contentStyle={{ background: '#0072ff', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
@@ -92,7 +92,7 @@ return(
     icon={<BiCodeAlt className="colorcss"/>}
      >
     <h4 className="vertical-timeline-element-title fontcss">Codechef Chapters Contest</h4>
-    </VerticalTimelineElement>
+    </VerticalTimelineElement> */}
 
     <VerticalTimelineElement
     className="vertical-timeline-element--work check"
