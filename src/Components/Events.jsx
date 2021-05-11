@@ -12,7 +12,7 @@ function Event(props){
     setShow(true);
   }
 
-  
+  const cp = () =>setShow(true)
    return (
     <div class="Event-section">
 
@@ -57,7 +57,7 @@ function Event(props){
 
             <div class="card event-card">
               <div class="card-body event-card-body dimg_css">
-              <a onClick={handleShow} href="#" className="Nodeco">
+              <a onClick={cp} href="#" className="Nodeco">
                 <h2>Competitive Coding</h2>
                 <div class="line">
                   <p> </p>
