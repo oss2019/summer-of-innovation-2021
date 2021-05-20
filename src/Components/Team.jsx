@@ -54,6 +54,7 @@ function Team(){
          <Row className="row">
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Shivam.jpeg' title="SHIVAM CHATURVEDI " email="180010032@iitdh.ac.in"/></Col>
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Rupesh.jpg' title="RUPESH KALANTRE" email="180010029@iitdh.ac.in"/></Col>
+            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Harshraj.jpg' title="HARSH RAJ" email="180010017@iitdh.ac.in"/></Col>
          </Row>
 
          <h3 className="h3class">TWITTER BOT FOR IPL UPDATES PROBLEM STATEMENT TEAM:</h3>
