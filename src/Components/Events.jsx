@@ -12,7 +12,7 @@ function Event(props){
     setShow(true);
   }
 
-  
+  const cp = () =>setShow(true)
    return (
     <div class="Event-section">
 
@@ -33,7 +33,7 @@ function Event(props){
             <div class="cards">
                 <div onClick={handleShow} class="card event-card">
                   <div class="card-body event-card-body aimg_css">
-                  <a  href={props.eventIsHere?"https://drive.google.com/file/d/1p4vndy2Yj5sgMTwKUYKrnpl0qWuyGN0F/view?usp=sharing":"#"} className="Nodeco">
+                  <a  href={props.eventIsHere?"https://drive.google.com/file/d/1jCTkicELyVrQ0xBch_2voio9e_qU2u3I/view?usp=sharing":"#"} className="Nodeco">
                     <h2>Web Development</h2>
                     <div class="line">
                       <p> </p>
@@ -57,7 +57,7 @@ function Event(props){
 
             <div class="card event-card">
               <div class="card-body event-card-body dimg_css">
-              <a onClick={handleShow} href={props.eventIsHere?"#":"#"} className="Nodeco">
+              <a onClick={cp} href="#" className="Nodeco">
                 <h2>Competitive Coding</h2>
                 <div class="line">
                   <p> </p>
@@ -69,7 +69,7 @@ function Event(props){
     
             <div class="card event-card">
               <div class="card-body event-card-body eimg_css ">
-              <a onClick={handleShow} href={props.eventIsHere?"https://drive.google.com/file/d/19TsYBmGQP6tGP-J-xWmbCnJRisnW18EG/view?usp=sharing":"#"} className="Nodeco">
+              <a onClick={handleShow} href={props.eventIsHere?"https://drive.google.com/file/d/1FWNufsz-9NF7cJP6DDoaz9THsRoadS2p/view?usp=sharing":"#"} className="Nodeco">
                 <h2>Entrepreneurship</h2>
                 <div class="line">
                   <p> </p>
