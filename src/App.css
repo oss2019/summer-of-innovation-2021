@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  ms-overflow-style: none;
-  scrollbar-width: none;
+  ms-overflow-style: 5px;
+  scrollbar-width: 5px;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
 }
 
 /***For body***/
@@ -15,5 +19,5 @@ body {
   margin: 0px;
   font-family: "Times New Roman", Times, serif;
   background-blend-mode: hard-light;
-  background-color: #e9ecef;
+  background-color: #e9eef4;
 }

@@ -114,18 +114,20 @@
   text-decoration: none;
 }
 
+.modalcss h1 {
+  color: blueviolet;
+}
+
 @media all and (max-device-width: 480px) {
- 
   .event-card {
     font-size: 80%;
     width: 22rem;
     height: 12rem;
   }
-  .event-card h2{
+  .event-card h2 {
     font-size: 143%;
   }
   .Event-section {
     font-size: 120%;
   }
-
 }

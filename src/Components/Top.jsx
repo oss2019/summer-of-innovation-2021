@@ -22,10 +22,6 @@ function Top(){
       const currDate = new Date();
       console.log(currDate, testDate, currDate.getTime()>moment(testDate).toDate().getTime());
       if(currDate.getTime() > moment(testDate).toDate().getTime()) setEventDateCheck(true);
-      // setTimeout(() => {
-      //   // setShow(true)
-      // }, 1000)
-      // setTester(tester+1);
       return () => {  };
     }, [tester]);
     return(
@@ -39,9 +35,7 @@ function Top(){
            Innovation<br />
            2021</h2>
 
-           <h4>This Summer Conquer your <br />fallacies
-             
-             and carve your finesses.</h4>
+           <h4>This Summer Conquer your<br /> fallacies and carve your finesse.</h4>
 
            <img src={('./Images/creative.png')} className="imagecss" alt="image not found"></img>
            </Container>
@@ -70,7 +64,7 @@ function Top(){
           </MDBContainer>
         </MDBJumbotron>
         <div style={{maxWidth:'100%'}}>
-        <Event />
+        <Event eventIsHere={eventDateCheck}/>
          
         
         </div>

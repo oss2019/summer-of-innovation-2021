@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Row, Col } from "mdbreact";
 import Bottom from './Bottom.jsx'
 import Card from './Card.jsx';
 import './Team.css'
@@ -26,7 +25,7 @@ function Team(){
 
          <h3 className="h3class">WEB-TEAM: </h3>
          <Row className="row">
-            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Rudraksh.jpeg' title="RUDRAKSH" email="190030038@iitdh.ac.in"/></Col>
+            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Rudraksh.jpg' title="RUDRAKSH" email="190030038@iitdh.ac.in"/></Col>
             <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Saurabh.jpg' title="SAURABH" email="190030036@iitdh.ac.in"/></Col>
          </Row>
 
@@ -78,7 +77,7 @@ function Team(){
 
          <h3 className="h3class">ROBOTICS PROBLEM STATEMENT TEAM</h3>
          <Row className="row">
-            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/1.jfif' title="SOHAN ANISETTY" email="180030040@iitdh.ac.in"/></Col>
+            <Col size="12" lg="3" md="4" sm="6" className="column"><Card url='./Images/Team Images/Sohan.jpg' title="SOHAN ANISETTY" email="180030040@iitdh.ac.in"/></Col>
          </Row>         
          </Container>
         <div style={{maxWidth:'100%'}}>
