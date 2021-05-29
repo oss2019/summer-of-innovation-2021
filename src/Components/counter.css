@@ -1,0 +1,56 @@
+
+.counter-div{
+    display: block;
+    width: 20%;
+    height: 40%;
+    background-color:#0072ff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+   
+}
+.animation{
+    animation: slide 10s;
+}
+@keyframes slide {
+   from{top: -70px;}
+   to{top: 0px;}
+  }
+.counter-text{
+    padding-top: 15%;
+    font-size: 180%;
+    color: white;
+}
+.counter-text p{
+    position: absolute;
+    bottom: -5%;
+    left:9%;
+    font-size: 70%;
+}
+
+@media all and (max-device-width: 480px) {
+    .counter-div{
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        left: 8.5%;
+        width:40%;
+    }
+    .counter-text{
+        padding-top: 10%;
+        font-size: 140%;
+        color: white;
+    }
+    .counter-text p{
+        margin: auto;
+        position: absolute;
+        bottom: 5%;
+        left:10%;
+        font-size: 60%;
+    }
+  }
+  
+
