@@ -5,6 +5,7 @@
   animation: fadeIn 700ms ease-in-out 1s both;
   cursor: pointer;
   border-bottom: 0.5rem;
+  z-index: 101;
 }
 
 @keyframes fadeIn {
