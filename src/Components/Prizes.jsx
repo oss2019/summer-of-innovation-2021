@@ -129,7 +129,11 @@ function Prizes() {
             </MDBRow>
           </MDBCol>
           <MDBCol md="4" className="text-name">
-            <img className="prizeimagecss" src="./Images/prizeimg.png" alt="" />
+            <img
+              className="prizeimagecss"
+              src="./Images/prizeimg2.png"
+              alt=""
+            />
           </MDBCol>
           <MDBCol md="4">
             <MDBRow className="mb-3">
