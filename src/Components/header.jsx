@@ -45,7 +45,9 @@ const Header = (props) =>
           <MDBNavbarNav right>
           <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/"   style={textCol}> HOME</Nav.Link>
           <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/team"  style={textCol}>TEAM</Nav.Link>
-            <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/timeline" style={textCol} >PRIZES & TIMELINE</Nav.Link>
+          <Nav.Link href="https://oss2019.github.io/summer-of-innovation-2021/#/timeline" style={textCol} >TIMELINE</Nav.Link>
+          <Nav.Link href='http://localhost:3000/summer-of-innovation-2021#/prizes' style={textCol} >PRIZES</Nav.Link>
+
             </MDBNavbarNav>
           </MDBCollapse>
       </MDBNavbar>

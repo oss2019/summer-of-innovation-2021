@@ -20,37 +20,6 @@ return(
     <div style={{backgroundColor: '#0072ff'}}>
     <Header />
     </div>
-
-    
-    <section className="text-center my-5 ">
-        <h1 className="h1-responsive font-weight-bold my-5 ">
-          PRIZES
-        </h1>
-        <MDBRow>
-          <MDBCol md="4">
-            <MDBIcon icon="certificate" size="3x" className="red-text" style={{color: '#0072ff'}} />
-            <h5 className="font-weight-bold my-4 fontcss" style={{color: '#0072ff'}}>Certificate of Completion</h5>
-            <p className="grey-text mb-md-0 mb-5 fontcss">
-            For those who complete all the requirements of the problem statement at hand. 
-            </p>
-          </MDBCol>
-          <MDBCol md="4">
-            <MDBIcon icon="trophy" size="3x" className="cyan-text" style={{color: '#0072ff'}}/>
-            <h5 className="font-weight-bold my-4 fontcss" style={{color: '#0072ff'}}>Certificate of Excellence:</h5>
-            <p className="grey-text mb-md-0 mb-5 fontcss">
-            For top 3 teams in each event. 
-            </p>
-          </MDBCol>
-          <MDBCol md="4">
-            <MDBIcon icon="user-plus" size="3x" className="orange-text" style={{color: '#0072ff'}} />
-            <h5 className="font-weight-bold my-4 fontcss" style={{color: '#0072ff'}}>Certificate of participation:</h5>
-            <p className="grey-text mb-md-0 mb-5 fontcss">
-            For all those who solve at least one sub part of problem statement and 
-            have their score above the following mark:<br /><b>Mean – 2*std.</b>
-            </p>
-          </MDBCol>
-        </MDBRow>
-      </section>
       
     <div className="timelinecss">
     <h1 className="h1-responsive font-weight-bold my-5 ">TIMELINE</h1>

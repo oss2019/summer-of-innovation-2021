@@ -13,14 +13,6 @@
   margin: auto;
   margin-top: 70px;
 }
-.forAnimation{
-  position: absolute;
-  top: -70px;
-  height: 70px;
-  width: 100%;
-  z-index: 100;
-  background-color:#e9eef4;
-}
 .event-card-body {
   border-radius: 2rem;
   height: 20rem;
@@ -133,7 +125,6 @@
     height: 12rem;
   }
   .event-card h2 {
-    padding-top: 25%;
     font-size: 143%;
   }
   .Event-section {
