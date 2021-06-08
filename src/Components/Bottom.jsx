@@ -5,8 +5,6 @@ import {AiOutlineInstagram} from 'react-icons/ai'
 
 import "./Bottom.css";
 import { Col, Container, Row } from 'react-bootstrap';
-
-
 function Bottom(){
     return(
         <div class="bottomcss">
