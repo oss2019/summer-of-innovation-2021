@@ -77,7 +77,7 @@ function Prizes() {
         <div class="col-md-12 mb-3">
           <img
             src="./Images/T-Shirt.PNG"
-            class="img-fluid z-depth-1"
+            class="img-fluid z-depth-1 prizeimagecss"
             alt="Responsive image"
           />
         </div>
@@ -129,7 +129,7 @@ function Prizes() {
             </MDBRow>
           </MDBCol>
           <MDBCol md="4" className="text-name">
-            <img className="prizeimagecss" src="./Images/prizeimg.jpg" alt="" />
+            <img className="prizeimagecss" src="./Images/prizeimg.png" alt="" />
           </MDBCol>
           <MDBCol md="4">
             <MDBRow className="mb-3">
