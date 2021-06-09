@@ -2,6 +2,7 @@ import React from "react";
 import Bottom from "./Bottom.jsx";
 import "react-vertical-timeline-component/style.min.css";
 import { MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
+import { Container } from "react-bootstrap";
 import Header from "./header";
 import "./Prizes.css";
 
@@ -73,7 +74,7 @@ function Prizes() {
         </MDBRow>
       </section>
 
-      <MDBContainer>
+      <Container>
         <section className="my-5">
           <h1 className="h1-responsive font-weight-bold text-center my-5">
             T-Shirts
@@ -148,7 +149,7 @@ function Prizes() {
             </MDBCol>
           </MDBRow>
         </section>
-      </MDBContainer>
+      </Container>
 
       <MDBContainer>
         <MDBRow className="maxwidthcss">
