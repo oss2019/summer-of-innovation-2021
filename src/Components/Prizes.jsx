@@ -152,14 +152,14 @@ function Prizes() {
         <MDBCol md="2"></MDBCol>
         <MDBCol md="4" className="mb-3">
           <img
-            src="./Images/t1.png"
+            src="./Images/t1.jpg"
             className="img-fluid z-depth-1 prizeimagecss"
             alt=""
           />
         </MDBCol>
         <MDBCol md="4" className="mb-3">
           <img
-            src="./Images/t2.png"
+            src="./Images/t2.jpg"
             className="img-fluid z-depth-1 prizeimagecss"
             alt=""
           />
