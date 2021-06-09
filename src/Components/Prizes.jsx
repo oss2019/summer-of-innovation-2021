@@ -100,7 +100,7 @@ function Prizes() {
                 >
                   Robotics
                 </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
+                <h4 className="fontcss">Top Two places in the event</h4>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
