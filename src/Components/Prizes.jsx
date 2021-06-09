@@ -151,14 +151,14 @@ function Prizes() {
 
       <MDBRow className="maxwidthcss">
         <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
-        <MDBCol xl="4" lg="4" md="6" sm="6" xs="12" className="mb-3">
+        <MDBCol xl="4" lg="4" md="12" sm="12" xs="12" className="mb-3">
           <img
             src="./Images/t1.jpg"
             className="img-fluid z-depth-1 tshirtimagecss"
             alt=""
           />
         </MDBCol>
-        <MDBCol xl="4" lg="4" md="6" sm="6" xs="12" className="mb-3">
+        <MDBCol xl="4" lg="4" md="12" sm="12" xs="12" className="mb-3">
           <img
             src="./Images/t2.jpg"
             className="img-fluid z-depth-1 tshirtimagecss"
