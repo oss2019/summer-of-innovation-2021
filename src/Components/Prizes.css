@@ -9,3 +9,14 @@
   margin-top: 5px;
   margin-bottom: 30px;
 }
+
+.maxwidthcss {
+  max-width: 100%;
+}
+
+.tshirtimagecss {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+}
