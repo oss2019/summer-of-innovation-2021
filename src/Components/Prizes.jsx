@@ -117,7 +117,7 @@ function Prizes() {
           <MDBCol md="4" className="text-name">
             <img
               className="prizeimagecss"
-              src="./Images/prizeimg3.jpg"
+              src="./Images/prizeimg3.png"
               alt=""
             />
           </MDBCol>
