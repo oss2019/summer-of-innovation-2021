@@ -1,7 +1,7 @@
 import React from "react";
 import Bottom from "./Bottom.jsx";
 import "react-vertical-timeline-component/style.min.css";
-import { MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
 import Header from "./header";
 import "./Prizes.css";
 
@@ -73,99 +73,103 @@ function Prizes() {
         </MDBRow>
       </section>
 
-      <section className="my-5">
-        <h1 className="h1-responsive font-weight-bold text-center my-5">
-          T-Shirts
-        </h1>
+      <MDBContainer>
+        <section className="my-5">
+          <h1 className="h1-responsive font-weight-bold text-center my-5">
+            T-Shirts
+          </h1>
 
-        <MDBRow>
-          <MDBCol md="4">
-            <MDBRow className="mb-3">
-              <MDBCol size="12">
-                <h3
-                  className="font-weight-bold mb-3 fontcss"
-                  style={{ color: "#0072ff" }}
-                >
-                  Web Development
-                </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="12">
-                <h3
-                  className="font-weight-bold mb-3 fontcss"
-                  style={{ color: "#0072ff" }}
-                >
-                  Robotics
-                </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="12">
-                <h3
-                  className="font-weight-bold mb-3 fontcss"
-                  style={{ color: "#0072ff" }}
-                >
-                  Competitive Coding
-                </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
-              </MDBCol>
-            </MDBRow>
-          </MDBCol>
-          <MDBCol md="4" className="text-name">
+          <MDBRow>
+            <MDBCol md="4">
+              <MDBRow className="mb-3">
+                <MDBCol size="12">
+                  <h3
+                    className="font-weight-bold mb-3 fontcss"
+                    style={{ color: "#0072ff" }}
+                  >
+                    Web Development
+                  </h3>
+                  <h4 className="fontcss">Top Three places in the event</h4>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="12">
+                  <h3
+                    className="font-weight-bold mb-3 fontcss"
+                    style={{ color: "#0072ff" }}
+                  >
+                    Robotics
+                  </h3>
+                  <h4 className="fontcss">Top Three places in the event</h4>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="12">
+                  <h3
+                    className="font-weight-bold mb-3 fontcss"
+                    style={{ color: "#0072ff" }}
+                  >
+                    Competitive Coding
+                  </h3>
+                  <h4 className="fontcss">Top Three places in the event</h4>
+                </MDBCol>
+              </MDBRow>
+            </MDBCol>
+            <MDBCol md="4" className="text-name">
+              <img
+                className="prizeimagecss"
+                src="./Images/prizeimg3.png"
+                alt=""
+              />
+            </MDBCol>
+            <MDBCol md="4">
+              <MDBRow className="mb-3">
+                <MDBCol size="12">
+                  <h3
+                    className="font-weight-bold mb-3 fontcss"
+                    style={{ color: "#0072ff" }}
+                  >
+                    Entrepreneurship
+                  </h3>
+                  <h4 className="fontcss">Top Three places in the event</h4>
+                </MDBCol>
+              </MDBRow>
+              <MDBRow className="mb-3">
+                <MDBCol size="12">
+                  <h3
+                    className="font-weight-bold mb-3 fontcss"
+                    style={{ color: "#0072ff" }}
+                  >
+                    AI Events
+                  </h3>
+                  <h4 className="fontcss">Top Three places in each AI event</h4>
+                </MDBCol>
+              </MDBRow>
+            </MDBCol>
+          </MDBRow>
+        </section>
+      </MDBContainer>
+
+      <MDBContainer>
+        <MDBRow className="maxwidthcss">
+          <MDBCol xl="2" lg="2" md="1" sm="1" xs="0"></MDBCol>
+          <MDBCol xl="4" lg="4" md="5" sm="5" xs="12" className="mb-3">
             <img
-              className="prizeimagecss"
-              src="./Images/prizeimg3.png"
+              src="./Images/t1.jpg"
+              className="img-fluid z-depth-1 tshirtimagecss"
               alt=""
             />
           </MDBCol>
-          <MDBCol md="4">
-            <MDBRow className="mb-3">
-              <MDBCol size="12">
-                <h3
-                  className="font-weight-bold mb-3 fontcss"
-                  style={{ color: "#0072ff" }}
-                >
-                  Entrepreneurship
-                </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol size="12">
-                <h3
-                  className="font-weight-bold mb-3 fontcss"
-                  style={{ color: "#0072ff" }}
-                >
-                  AI Events
-                </h3>
-                <h4 className="fontcss">Top Three places in each AI event</h4>
-              </MDBCol>
-            </MDBRow>
+          <MDBCol xl="4" lg="4" md="5" sm="5" xs="12" className="mb-3">
+            <img
+              src="./Images/t2.jpg"
+              className="img-fluid z-depth-1 tshirtimagecss"
+              alt=""
+            />
           </MDBCol>
+          <MDBCol xl="2" lg="2" md="1" sm="1" xs="0"></MDBCol>
         </MDBRow>
-      </section>
-
-      <MDBRow className="maxwidthcss">
-        <MDBCol xl="2" lg="2" md="1" sm="1" xs="0"></MDBCol>
-        <MDBCol xl="4" lg="4" md="5" sm="5" xs="12" className="mb-3">
-          <img
-            src="./Images/t1.jpg"
-            className="img-fluid z-depth-1 tshirtimagecss"
-            alt=""
-          />
-        </MDBCol>
-        <MDBCol xl="4" lg="4" md="5" sm="5" xs="12" className="mb-3">
-          <img
-            src="./Images/t2.jpg"
-            className="img-fluid z-depth-1 tshirtimagecss"
-            alt=""
-          />
-        </MDBCol>
-        <MDBCol xl="2" lg="2" md="1" sm="1" xs="0"></MDBCol>
-      </MDBRow>
+      </MDBContainer>
 
       <h1 className="font-weight-bold text-center my-5">
         Prizes will be distributed only when we return to campus
