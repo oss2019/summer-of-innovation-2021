@@ -20,3 +20,7 @@
   margin-right: auto;
   max-width: 320px;
 }
+
+.marginautocss {
+  margin: auto;
+}
