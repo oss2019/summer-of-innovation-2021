@@ -13,7 +13,7 @@ function Prizes() {
       </div>
 
       <section className="text-center my-5 ">
-        <h1 className="h1-responsive font-weight-bold my-5 ">PRIZES</h1>
+        <h1 className="h1-responsive font-weight-bold my-5 ">CERTIFICATES</h1>
         <MDBRow>
           <MDBCol md="4">
             <MDBIcon
@@ -77,10 +77,6 @@ function Prizes() {
         <h1 className="h1-responsive font-weight-bold text-center my-5">
           T-Shirts
         </h1>
-        <h4 className=" w-responsive text-center mx-auto mb-5 fontcss marginbottomcss">
-          Along with certificates T-shirts will be given according to the
-          competition taken part.
-        </h4>
 
         <MDBRow>
           <MDBCol md="4">
@@ -121,7 +117,7 @@ function Prizes() {
           <MDBCol md="4" className="text-name">
             <img
               className="prizeimagecss"
-              src="./Images/prizeimg2.png"
+              src="./Images/prizeimg3.jpg"
               alt=""
             />
           </MDBCol>
