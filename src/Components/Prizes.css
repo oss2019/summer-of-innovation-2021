@@ -12,13 +12,16 @@
 
 .maxwidthcss {
   max-width: 100%;
+  width: 100%;
 }
 
 .tshirtimagecss {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
   max-width: 320px;
+  width: 90%;
 }
 
 .marginautocss {

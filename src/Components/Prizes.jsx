@@ -149,26 +149,24 @@ function Prizes() {
         </MDBRow>
       </section>
 
-      <MDBContainer>
-        <MDBRow className="maxwidthcss">
-          <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
-          <MDBCol xl="4" lg="4" md="6" sm="6" xs="12" className="mb-3">
-            <img
-              src="./Images/t1.jpg"
-              className="img-fluid z-depth-1 tshirtimagecss"
-              alt=""
-            />
-          </MDBCol>
-          <MDBCol xl="4" lg="4" md="6" sm="6" xs="12" className="mb-3">
-            <img
-              src="./Images/t2.jpg"
-              className="img-fluid z-depth-1 tshirtimagecss"
-              alt=""
-            />
-          </MDBCol>
-          <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
-        </MDBRow>
-      </MDBContainer>
+      <MDBRow className="maxwidthcss">
+        <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
+        <MDBCol xl="4" lg="4" md="6" sm="6" xs="12" className="mb-3">
+          <img
+            src="./Images/t1.jpg"
+            className="img-fluid z-depth-1 tshirtimagecss"
+            alt=""
+          />
+        </MDBCol>
+        <MDBCol xl="4" lg="4" md="6" sm="6" xs="12" className="mb-3">
+          <img
+            src="./Images/t2.jpg"
+            className="img-fluid z-depth-1 tshirtimagecss"
+            alt=""
+          />
+        </MDBCol>
+        <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
+      </MDBRow>
 
       <h1 className="font-weight-bold text-center my-5">
         Prizes will be distributed only when we return to campus
