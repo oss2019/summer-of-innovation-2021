@@ -73,16 +73,6 @@ function Prizes() {
         </MDBRow>
       </section>
 
-      <div class="row">
-        <div class="col-md-12 mb-3">
-          <img
-            src="./Images/T-Shirt.PNG"
-            class="img-fluid z-depth-1 prizeimagecss"
-            alt="Responsive image"
-          />
-        </div>
-      </div>
-
       <section className="my-5">
         <h1 className="h1-responsive font-weight-bold text-center my-5">
           T-Shirts
@@ -113,7 +103,7 @@ function Prizes() {
                 >
                   Robotics
                 </h3>
-                <h4 className="fontcss">Top Two places in the event</h4>
+                <h4 className="fontcss">Top Three places in the event</h4>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -124,7 +114,7 @@ function Prizes() {
                 >
                   Competitive Coding
                 </h3>
-                <h4 className="fontcss">Top Five places in the event</h4>
+                <h4 className="fontcss">Top Three places in the event</h4>
               </MDBCol>
             </MDBRow>
           </MDBCol>
@@ -144,7 +134,7 @@ function Prizes() {
                 >
                   Entrepreneurship
                 </h3>
-                <h4 className="fontcss">Top Two places in the event</h4>
+                <h4 className="fontcss">Top Three places in the event</h4>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -155,12 +145,33 @@ function Prizes() {
                 >
                   AI Events
                 </h3>
-                <h4 className="fontcss">Top Two places in each AI event</h4>
+                <h4 className="fontcss">Top Three places in each AI event</h4>
               </MDBCol>
             </MDBRow>
           </MDBCol>
         </MDBRow>
       </section>
+
+      <MDBRow>
+        <MDBCol md="6" className="mb-3">
+          <img
+            src="./Images/t1.png"
+            className="img-fluid z-depth-1 prizeimagecss"
+            alt=""
+          />
+        </MDBCol>
+        <MDBCol md="6" className="mb-3">
+          <img
+            src="./Images/t2.png"
+            className="img-fluid z-depth-1 prizeimagecss"
+            alt=""
+          />
+        </MDBCol>
+      </MDBRow>
+
+      <h1 className="font-weight-bold text-center my-5">
+        Prizes will be distributed only when we return to campus
+      </h1>
 
       <Bottom />
     </div>
