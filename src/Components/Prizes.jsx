@@ -149,7 +149,7 @@ function Prizes() {
       </section>
 
       <MDBRow className="maxwidthcss">
-        <MDBCol md="2"></MDBCol>
+        <MDBCol xl="2" lg="2" md="1" sm="1" xs="0"></MDBCol>
         <MDBCol xl="4" lg="4" md="5" sm="5" xs="12" className="mb-3">
           <img
             src="./Images/t1.jpg"
@@ -164,7 +164,7 @@ function Prizes() {
             alt=""
           />
         </MDBCol>
-        <MDBCol md="2"></MDBCol>
+        <MDBCol xl="2" lg="2" md="1" sm="1" xs="0"></MDBCol>
       </MDBRow>
 
       <h1 className="font-weight-bold text-center my-5">
