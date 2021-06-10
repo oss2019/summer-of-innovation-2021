@@ -152,10 +152,12 @@ function Prizes() {
                 </h3>
                 <h4 className="fontcss">
                   T-shirts for Top 2 places in each of the 4 problem statements
-                  related to AI*(*For the particular AI events with 15+
-                  participation, the place reward shall be updated to top 3
-                  places)
+                  related to AI*
                 </h4>
+                <h5>
+                  (*For the particular AI events with 15+ participation, the
+                  place reward shall be updated to top 3 places)
+                </h5>
               </MDBCol>
             </MDBRow>
           </MDBCol>
