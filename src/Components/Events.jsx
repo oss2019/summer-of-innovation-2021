@@ -62,7 +62,7 @@ function Event(props){
             <div class="card event-card">
             <div className="forAnimation"></div>
               <div class="card-body event-card-body dimg_css">
-              <Counter end="0" />
+              <Counter end="40" />
               <a onClick={cp} href="#" className="Nodeco">
                 <h2>Competitive Coding</h2>
                 <div class="line">
