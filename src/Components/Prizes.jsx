@@ -171,9 +171,9 @@ function Prizes() {
       <h2 className="font-weight-bold fontcss text-center my-5">
         *Prizes will be distributed only when we return to campus.
       </h2>
-      <h3 className="font-weight-bold fontcss text-center my-5 merchandise-details">
+      <h4 className="font-weight-bold fontcss text-center my-5 merchandise-details">
       The merchandise will be available for sale as well. More details to be shared by July last week.
-      </h3>
+      </h4>
 
       <Bottom />
     </div>
