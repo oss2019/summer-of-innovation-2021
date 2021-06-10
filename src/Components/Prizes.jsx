@@ -183,7 +183,7 @@ function Prizes() {
         <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
       </MDBRow>
 
-      <h2 className="font-weight-bold fontcss text-center my-5">
+      <h2 className="font-weight-bold fontcss text-center my-5 aligncss">
         *Prizes will be distributed only when we return to campus.
       </h2>
       <h4 className="font-weight-bold fontcss text-center my-5 merchandise-details">
