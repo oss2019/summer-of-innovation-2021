@@ -27,11 +27,11 @@
 .marginautocss {
   margin: auto;
 }
-h2{
+.aligncss {
   margin-left: 5%;
   margin-right: 5%;
 }
-.merchandise-details{
+.merchandise-details {
   margin-left: 0.5%;
   margin-right: 0.5%;
 }

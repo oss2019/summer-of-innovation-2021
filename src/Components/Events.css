@@ -13,13 +13,13 @@
   margin: auto;
   margin-top: 70px;
 }
-.forAnimation{
+.forAnimation {
   position: absolute;
   top: -70px;
   height: 70px;
   width: 100%;
   z-index: 100;
-  background-color:#e9eef4;
+  background-color: #e9eef4;
 }
 .event-card-body {
   border-radius: 2rem;

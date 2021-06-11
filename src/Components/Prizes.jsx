@@ -89,7 +89,9 @@ function Prizes() {
                 >
                   Web Development
                 </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
+                <h4 className="fontcss">
+                  T-shirts for Top Three places in the event
+                </h4>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -100,7 +102,9 @@ function Prizes() {
                 >
                   Robotics
                 </h3>
-                <h4 className="fontcss">Top Two places in the event</h4>
+                <h4 className="fontcss">
+                  T-shirts for Top Two places in the event
+                </h4>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -111,7 +115,9 @@ function Prizes() {
                 >
                   Competitive Coding
                 </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
+                <h4 className="fontcss">
+                  T-shirts for Top Three places in the event
+                </h4>
               </MDBCol>
             </MDBRow>
           </MDBCol>
@@ -131,7 +137,9 @@ function Prizes() {
                 >
                   Entrepreneurship
                 </h3>
-                <h4 className="fontcss">Top Three places in the event</h4>
+                <h4 className="fontcss">
+                  T-shirts for Top Three places in the event
+                </h4>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
@@ -142,7 +150,14 @@ function Prizes() {
                 >
                   AI Events
                 </h3>
-                <h4 className="fontcss">Top Three places in each AI event</h4>
+                <h4 className="fontcss">
+                  T-shirts for Top 2 places in each of the 4 problem statements
+                  related to AI*
+                </h4>
+                <h5>
+                  (*For the particular AI events with 15+ participation, the
+                  place reward shall be updated to top 3 places)
+                </h5>
               </MDBCol>
             </MDBRow>
           </MDBCol>
@@ -168,11 +183,12 @@ function Prizes() {
         <MDBCol xl="2" lg="2" md="0" sm="0" xs="0"></MDBCol>
       </MDBRow>
 
-      <h2 className="font-weight-bold fontcss text-center my-5">
+      <h2 className="font-weight-bold fontcss text-center my-5 aligncss">
         *Prizes will be distributed only when we return to campus.
       </h2>
       <h4 className="font-weight-bold fontcss text-center my-5 merchandise-details">
-      The merchandise will be available for sale as well. More details to be shared by July last week.
+        The merchandise will be available for sale as well. More details to be
+        shared by July last week.
       </h4>
 
       <Bottom />
