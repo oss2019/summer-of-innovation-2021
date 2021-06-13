@@ -11,7 +11,7 @@ function Event(props) {
     if (props.eventIsHere) return;
     setShow(true);
   };
-  const cp = () => setShow(true);
+
   return (
     <div class="Event-section">
       <Modal show={show} onHide={handleClose}>
