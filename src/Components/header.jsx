@@ -79,6 +79,12 @@ const Header = (props) => {
             >
               PRIZES
             </Nav.Link>
+            <Nav.Link
+              href="http://localhost:3000/summer-of-innovation-2021#/result"
+              style={textCol}
+            >
+              RESULT
+            </Nav.Link>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
