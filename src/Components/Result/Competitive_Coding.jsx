@@ -17,7 +17,7 @@ function Competitive_Coding() {
             Competitive Coding
           </h2>
           <MDBRow>
-            <img src="./Images/result.jpg" className="mx-auto d-bloc" alt="" />
+            <img src="./Images/result.png" className="mx-auto d-block" alt="" />
           </MDBRow>
         </MDBContainer>
       </div>
