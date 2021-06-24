@@ -16,13 +16,7 @@ function Competitive_Coding() {
           <h2 className="h1-responsive font-weight-bold text-center my-5">
             Competitive Coding
           </h2>
-          <MDBRow>
-            <img
-              src="./Images/result.jpg"
-              className="img-fluid z-depth-1"
-              alt=""
-            />
-          </MDBRow>
+          <img src="./Images/result.jpg" className="resultmainimg" alt="" />
         </MDBContainer>
       </div>
       <div style={{ maxWidth: "100%" }}>
