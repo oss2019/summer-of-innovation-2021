@@ -6,3 +6,20 @@
 .resultmain {
   align-items: center;
 }
+
+.rankcssh1 {
+  font-size: 5rem;
+}
+
+.rankcssh5 {
+  font-size: 2.5rem;
+}
+
+.rankcolcss {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.rankcontainercss {
+  max-width: 1500px;
+}
