@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/summer-of-innovation-2021/static/css/main.77372e9e.chunk.css",
-    "main.js": "/summer-of-innovation-2021/static/js/main.a984581c.chunk.js",
-    "main.js.map": "/summer-of-innovation-2021/static/js/main.a984581c.chunk.js.map",
+    "main.js": "/summer-of-innovation-2021/static/js/main.df29fbd8.chunk.js",
+    "main.js.map": "/summer-of-innovation-2021/static/js/main.df29fbd8.chunk.js.map",
     "runtime-main.js": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js",
     "runtime-main.js.map": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js.map",
     "static/css/2.489a6532.chunk.css": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css",
-    "static/js/2.1c45358e.chunk.js": "/summer-of-innovation-2021/static/js/2.1c45358e.chunk.js",
-    "static/js/2.1c45358e.chunk.js.map": "/summer-of-innovation-2021/static/js/2.1c45358e.chunk.js.map",
+    "static/js/2.bfcdffcf.chunk.js": "/summer-of-innovation-2021/static/js/2.bfcdffcf.chunk.js",
+    "static/js/2.bfcdffcf.chunk.js.map": "/summer-of-innovation-2021/static/js/2.bfcdffcf.chunk.js.map",
     "index.html": "/summer-of-innovation-2021/index.html",
     "static/css/2.489a6532.chunk.css.map": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css.map",
     "static/css/main.77372e9e.chunk.css.map": "/summer-of-innovation-2021/static/css/main.77372e9e.chunk.css.map",
-    "static/js/2.1c45358e.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.1c45358e.chunk.js.LICENSE.txt",
+    "static/js/2.bfcdffcf.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.bfcdffcf.chunk.js.LICENSE.txt",
     "static/media/Events.css": "/summer-of-innovation-2021/static/media/webdev_u.06108c1c.jpg",
     "static/media/Top.css": "/summer-of-innovation-2021/static/media/backimg3.a988997d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.101a8b7d.js",
     "static/css/2.489a6532.chunk.css",
-    "static/js/2.1c45358e.chunk.js",
+    "static/js/2.bfcdffcf.chunk.js",
     "static/css/main.77372e9e.chunk.css",
-    "static/js/main.a984581c.chunk.js"
+    "static/js/main.df29fbd8.chunk.js"
   ]
 }
