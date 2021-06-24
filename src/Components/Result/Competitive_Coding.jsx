@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./header";
-import Bottom from "./Bottom";
+import Header from "../header";
+import Bottom from "../Bottom";
 import { MDBRow, MDBCol, MDBContainer } from "mdbreact";
 import "./Result.css";
 
-function Result() {
+function Competitive_Coding() {
   return (
     <div>
       <div style={{ backgroundColor: "#0072ff", width: "100%" }}>
@@ -14,16 +14,14 @@ function Result() {
       <div className="resultmain">
         <MDBContainer>
           <h2 className="h1-responsive font-weight-bold text-center my-5">
-            RESULTS
+            Competitive Coding
           </h2>
           <MDBRow>
-            <MDBCol md="12" className="mb-3">
-              <img
-                src="./Images/result.jpg"
-                className="img-fluid z-depth-1"
-                alt=""
-              />
-            </MDBCol>
+            <img
+              src="./Images/result.jpg"
+              className="img-fluid z-depth-1"
+              alt=""
+            />
           </MDBRow>
         </MDBContainer>
       </div>
@@ -34,4 +32,4 @@ function Result() {
   );
 }
 
-export default Result;
+export default Competitive_Coding;

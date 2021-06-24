@@ -79,12 +79,18 @@ const Header = (props) => {
             >
               PRIZES
             </Nav.Link>
-            {/* <Nav.Link
-              href="http://localhost:3000/summer-of-innovation-2021#/result"
-              style={textCol}
+            <NavDropdown
+              title="RESULTS"
+              style={textCol3}
+              renderMenuOnMount={true}
             >
-              RESULT
-            </Nav.Link> */}
+              <NavDropdown.Item
+                style={textCol2}
+                href="http://localhost:3000/summer-of-innovation-2021#/competitive_coding"
+              >
+                Competitive Coding
+              </NavDropdown.Item>
+            </NavDropdown>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
@@ -98,6 +104,23 @@ const textCol = {
   paddingRight: "35px",
   paddingTop: "15px",
   margin: "auto",
+  fontSize: "10",
+  fontFamily: '"Itim", cursive',
+};
+
+const textCol2 = {
+  color: "black",
+  height: "40px",
+  margin: "auto",
+  fontSize: "10",
+  fontFamily: '"Itim", cursive',
+};
+
+const textCol3 = {
+  color: "white",
+  height: "40px",
+  paddingRight: "35px",
+  paddingTop: "6px",
   fontSize: "10",
   fontFamily: '"Itim", cursive',
 };
