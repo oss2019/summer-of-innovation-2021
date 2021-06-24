@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/summer-of-innovation-2021/static/css/main.77372e9e.chunk.css",
+    "main.css": "/summer-of-innovation-2021/static/css/main.4a365d36.chunk.css",
     "main.js": "/summer-of-innovation-2021/static/js/main.2a35eebf.chunk.js",
     "main.js.map": "/summer-of-innovation-2021/static/js/main.2a35eebf.chunk.js.map",
     "runtime-main.js": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js",
@@ -10,7 +10,7 @@
     "static/js/2.bfcdffcf.chunk.js.map": "/summer-of-innovation-2021/static/js/2.bfcdffcf.chunk.js.map",
     "index.html": "/summer-of-innovation-2021/index.html",
     "static/css/2.489a6532.chunk.css.map": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css.map",
-    "static/css/main.77372e9e.chunk.css.map": "/summer-of-innovation-2021/static/css/main.77372e9e.chunk.css.map",
+    "static/css/main.4a365d36.chunk.css.map": "/summer-of-innovation-2021/static/css/main.4a365d36.chunk.css.map",
     "static/js/2.bfcdffcf.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.bfcdffcf.chunk.js.LICENSE.txt",
     "static/media/Events.css": "/summer-of-innovation-2021/static/media/webdev_u.06108c1c.jpg",
     "static/media/Top.css": "/summer-of-innovation-2021/static/media/backimg3.a988997d.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.101a8b7d.js",
     "static/css/2.489a6532.chunk.css",
     "static/js/2.bfcdffcf.chunk.js",
-    "static/css/main.77372e9e.chunk.css",
+    "static/css/main.4a365d36.chunk.css",
     "static/js/main.2a35eebf.chunk.js"
   ]
 }
