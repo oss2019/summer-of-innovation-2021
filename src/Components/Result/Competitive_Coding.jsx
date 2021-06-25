@@ -10,6 +10,7 @@ import {
   MDBCardBody,
   MDBIcon,
   MDBBtn,
+  MDBJumbotron,
 } from "mdbreact";
 import { Card, Button } from "react-bootstrap";
 import "./Result.css";
@@ -63,12 +64,24 @@ function Competitive_Coding() {
           </MDBRow>
         </MDBContainer>
 
-        <Card>
-          <Card.Body>
-            <Card.Title>Collect your certificate here</Card.Title>
-            <Button variant="primary">Certificate</Button>
-          </Card.Body>
-        </Card>
+        <MDBJumbotron fluid>
+          <MDBContainer className="ovresultcss">
+            <h2 className=" text-center display-4 font-bold fontcss">
+              CONGRATULATIONS
+            </h2>
+            {/* lead mx-5 mb-5 //  pccss  */}
+
+            <p className=" text-center lead fontcss" style={{ width: "95%" }}>
+              <b>
+                Congratulations to all the winners and all the participants. All
+                of the participants can collect their certificates using the
+                below link. Thank you all for participating in the event.
+              </b>
+            </p>
+
+            <Button>Collect Here</Button>
+          </MDBContainer>
+        </MDBJumbotron>
       </div>
       <div style={{ maxWidth: "100%" }}>
         <Bottom />

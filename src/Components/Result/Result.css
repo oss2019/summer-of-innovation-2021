@@ -28,3 +28,17 @@
 .heightcss {
   height: 400px;
 }
+
+.ovresultcss {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.ovresultcss p {
+  font-size: 25px;
+}
+
+.ovresultcss h2 {
+  font-size: 2.5rem;
+}
