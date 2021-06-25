@@ -35,6 +35,7 @@ function Competitive_Coding() {
         <MDBContainer className="text-center my-5 rankcontainercss">
           <MDBRow style={{ maxWidth: "100%" }}>
             <MDBCol md="4 rankcolcss">
+              <img src="./Images/rank.png" />
               <h1 className="rankcssh1">1st Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
@@ -44,6 +45,7 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss">
+              <img src="./Images/rank.png" />
               <h1 className="rankcssh1">2nd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
@@ -53,6 +55,7 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss">
+              <img src="./Images/rank.png" />
               <h1 className="rankcssh1">3rd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
