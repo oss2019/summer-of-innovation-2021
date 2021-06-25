@@ -23,8 +23,8 @@ function Competitive_Coding() {
 
       <div className="resultmain">
         <MDBContainer>
-          <h2 className="h1-responsive font-weight-bold text-center my-5">
-            Competitive Coding
+          <h2 className="h1-responsive font-weight-bold text-center my-5 fontcss">
+            Competitive Coding Winners
           </h2>
         </MDBContainer>
 
