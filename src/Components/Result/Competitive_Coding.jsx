@@ -78,44 +78,44 @@ function Competitive_Coding() {
           </MDBRow>
 
           <MDBRow style={{ maxWidth: "100%" }} className="mobileviewcss">
-            <MDBCol md="4 rankcolcss rankonecss">
+            <MDBCol md="4 rankcolcss rankonecss" className="h4-margin-top">
+              <h4
+                className="font-weight-bold my-4 "
+                style={{ color: "#0072ff" }}
+              >
+                1st Rank
+              </h4>
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
               />
               <h3 className="h3-top-margin">Pratik Manoj Jain</h3>
+            </MDBCol>
+            <MDBCol md="4 rankcolcss" className="h4-margin-top">
               <h4
                 className="font-weight-bold my-4"
                 style={{ color: "#0072ff" }}
               >
-                1st Rank
+                2nd Rank
               </h4>
-            </MDBCol>
-            <MDBCol md="4 rankcolcss">
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/himanshu.jpeg"
               />
               <h3 className="h3-top-margin">Himanshu</h3>
+            </MDBCol>
+            <MDBCol md="4 rankcolcss" className="h4-margin-top">
               <h4
-                className="font-weight-bold my-4 "
+                className="font-weight-bold my-4"
                 style={{ color: "#0072ff" }}
               >
-                2nd Rank
+                3rd Rank
               </h4>
-            </MDBCol>
-            <MDBCol md="4 rankcolcss">
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/amrutha.jpeg"
               />
               <h3 className="h3-top-margin">G O Amrutha Praveen</h3>
-              <h4
-                className="font-weight-bold my-4 "
-                style={{ color: "#0072ff" }}
-              >
-                3rd Rank
-              </h4>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
