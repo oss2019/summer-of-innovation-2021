@@ -46,7 +46,10 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss">
-              <img className="heightcss" src="" />
+              <img
+                className="heightcss"
+                src="./Images/Result images/CP/himanshu.jpeg"
+              />
               <h1 className="rankcssh1">2nd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
@@ -56,7 +59,10 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss">
-              <img className="heightcss" src="" />
+              <img
+                className="heightcss"
+                src="./Images/Result images/CP/amruth.jpeg"
+              />
               <h1 className="rankcssh1">3rd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
