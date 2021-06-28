@@ -56,3 +56,16 @@
 .rankthreecss {
   margin-top: 50px;
 }
+
+.mobileviewcss {
+  display: none;
+}
+
+@media all and (max-width: 770px) {
+  .mobileviewcss {
+    display: block;
+  }
+  .pcviewcss {
+    display: none;
+  }
+}

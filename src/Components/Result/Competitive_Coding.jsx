@@ -31,7 +31,7 @@ function Competitive_Coding() {
         </MDBContainer>
 
         <MDBContainer className="text-center my-5 rankcontainercss">
-          <MDBRow style={{ maxWidth: "100%" }}>
+          <MDBRow style={{ maxWidth: "100%" }} className="pcviewcss">
             <MDBCol md="4 rankcolcss ranktwocss">
               <img
                 className="resultimgcss"
@@ -59,6 +59,48 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss rankthreecss">
+              <img
+                className="resultimgcss"
+                src="./Images/Result images/CP/amrutha.jpeg"
+              />
+              <h1 className="rankcssh1">3rd Rank</h1>
+              <h5
+                className="font-weight-bold my-4 rankcssh5"
+                style={{ color: "#0072ff" }}
+              >
+                G O Amrutha Praveen
+              </h5>
+            </MDBCol>
+          </MDBRow>
+
+          <MDBRow style={{ maxWidth: "100%" }} className="mobileviewcss">
+            <MDBCol md="4 rankcolcss rankonecss">
+              <img
+                className="resultimgcss"
+                src="./Images/Result images/CP/Pratik.jpeg"
+              />
+              <h1 className="rankcssh1">1st Rank</h1>
+              <h5
+                className="font-weight-bold my-4 rankcssh5"
+                style={{ color: "#0072ff" }}
+              >
+                Pratik Manoj Jain
+              </h5>
+            </MDBCol>
+            <MDBCol md="4 rankcolcss">
+              <img
+                className="resultimgcss"
+                src="./Images/Result images/CP/himanshu.jpeg"
+              />
+              <h1 className="rankcssh1">2nd Rank</h1>
+              <h5
+                className="font-weight-bold my-4 rankcssh5"
+                style={{ color: "#0072ff" }}
+              >
+                Himanshu
+              </h5>
+            </MDBCol>
+            <MDBCol md="4 rankcolcss">
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/amrutha.jpeg"
