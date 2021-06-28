@@ -1,32 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap");
 
-.main-div{
-    width: 80%;
+.main-div {
+  width: 80%;
 }
 
-.getCertificate-class{
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 1.6px;
+.getCertificate-class {
+  font-family: "Varela Round", sans-serif;
 }
-.getCertificate-lowerClass{
-    font-style: italic;
+.getCertificate-lowerClass {
+  font-style: italic;
 }
-.login-button{
-    display: block;
-    width: 10rem;
-    border-radius: 1.5rem;
-    background-color: #060c3d;
-    border: 0.3px;
-    color: white;
-    font-family: 'Noto Sans KR', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+.login-button {
+  display: block;
+  width: 10rem;
+  border-radius: 1.5rem;
+  background-color: #060c3d;
+  border: 0.3px;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
-.alert-box{
-    display: block;
-    width: 70%;
-    font-family: 'Varela Round', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+.alert-box {
+  display: block;
+  width: 70%;
+  font-family: "Varela Round", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
