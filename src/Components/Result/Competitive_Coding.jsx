@@ -14,8 +14,7 @@ import {
 } from "mdbreact";
 import { Card, Button } from "react-bootstrap";
 import "./Result.css";
-import GetCertificate from "../Certificates page/getCertificate"
-
+import GetCertificate from "../Certificates page/getCertificate";
 
 function Competitive_Coding() {
   return (
@@ -34,7 +33,10 @@ function Competitive_Coding() {
         <MDBContainer className="text-center my-5 rankcontainercss">
           <MDBRow style={{ maxWidth: "100%" }}>
             <MDBCol md="4 rankcolcss">
-              <img className="heightcss" src="./Images/rank.png" />
+              <img
+                className="heightcss"
+                src="./Images/Result Images/Pratik.jpeg"
+              />
               <h1 className="rankcssh1">1st Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
@@ -44,7 +46,7 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss">
-              <img className="heightcss" src="./Images/rank.png" />
+              <img className="heightcss" src="" />
               <h1 className="rankcssh1">2nd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
@@ -54,7 +56,7 @@ function Competitive_Coding() {
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss">
-              <img className="heightcss" src="./Images/rank.png" />
+              <img className="heightcss" src="" />
               <h1 className="rankcssh1">3rd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
@@ -66,8 +68,6 @@ function Competitive_Coding() {
           </MDBRow>
         </MDBContainer>
         <GetCertificate />
-
-
       </div>
       <div style={{ maxWidth: "100%" }}>
         <Bottom />
