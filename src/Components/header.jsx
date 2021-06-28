@@ -87,7 +87,7 @@ const Header = (props) => {
             >
               <NavDropdown.Item
                 style={textCol2}
-                href="http://localhost:3000/summer-of-innovation-2021#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
               >
                 Competitive Coding
               </NavDropdown.Item>
