@@ -34,7 +34,7 @@ function Competitive_Coding() {
           <MDBRow style={{ maxWidth: "100%" }}>
             <MDBCol md="4 rankcolcss">
               <img
-                className="heightcss"
+                className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
               />
               <h1 className="rankcssh1">1st Rank</h1>
