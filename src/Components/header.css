@@ -6,6 +6,18 @@
   transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
+.dropdown-icon-css {
+  color: white;
+}
+
+.dropdwon-toggle {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
 /* .top-nav-collapse {
   background: #000428 !important;
 } */

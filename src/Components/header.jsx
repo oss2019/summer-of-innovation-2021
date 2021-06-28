@@ -79,10 +79,11 @@ const Header = (props) => {
             >
               PRIZES
             </Nav.Link>
-            {/* <NavDropdown
+            <NavDropdown
               title="RESULTS"
               style={textCol3}
               renderMenuOnMount={true}
+              className="dropdown-icon-css"
             >
               <NavDropdown.Item
                 style={textCol2}
@@ -90,7 +91,7 @@ const Header = (props) => {
               >
                 Competitive Coding
               </NavDropdown.Item>
-            </NavDropdown> */}
+            </NavDropdown>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
