@@ -32,17 +32,17 @@ function Competitive_Coding() {
 
         <MDBContainer className="text-center my-5 rankcontainercss">
           <MDBRow style={{ maxWidth: "100%" }}>
-            <MDBCol md="4 rankcolcss rankthreecss">
+            <MDBCol md="4 rankcolcss ranktwocss">
               <img
                 className="resultimgcss"
-                src="./Images/Result images/CP/amrutha.jpeg"
+                src="./Images/Result images/CP/himanshu.jpeg"
               />
-              <h1 className="rankcssh1">3rd Rank</h1>
+              <h1 className="rankcssh1">2nd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
                 style={{ color: "#0072ff" }}
               >
-                G O Amrutha Praveen
+                Himanshu
               </h5>
             </MDBCol>
             <MDBCol md="4 rankcolcss rankonecss">
@@ -58,17 +58,17 @@ function Competitive_Coding() {
                 Pratik Manoj Jain
               </h5>
             </MDBCol>
-            <MDBCol md="4 rankcolcss ranktwocss">
+            <MDBCol md="4 rankcolcss rankthreecss">
               <img
                 className="resultimgcss"
-                src="./Images/Result images/CP/himanshu.jpeg"
+                src="./Images/Result images/CP/amrutha.jpeg"
               />
-              <h1 className="rankcssh1">2nd Rank</h1>
+              <h1 className="rankcssh1">3rd Rank</h1>
               <h5
                 className="font-weight-bold my-4 rankcssh5"
                 style={{ color: "#0072ff" }}
               >
-                Himanshu
+                G O Amrutha Praveen
               </h5>
             </MDBCol>
           </MDBRow>
