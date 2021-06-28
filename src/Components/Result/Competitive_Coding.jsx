@@ -29,7 +29,7 @@ function Competitive_Coding() {
             Result
           </h1>
           <h2 className="h2-responsive font-weight-bold text-center my-5 fontcss">
-            Competitive Coding
+            {"{Competitive Coding}"}
           </h2>
         </MDBContainer>
 
