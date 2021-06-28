@@ -61,7 +61,7 @@ function Competitive_Coding() {
             <MDBCol md="4 rankcolcss">
               <img
                 className="resultimgcss"
-                src="./Images/Result images/CP/amruth.jpeg"
+                src="./Images/Result images/CP/amrutha.jpeg"
               />
               <h1 className="rankcssh1">3rd Rank</h1>
               <h5
