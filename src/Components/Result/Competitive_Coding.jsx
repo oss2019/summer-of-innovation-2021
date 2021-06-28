@@ -26,13 +26,26 @@ function Competitive_Coding() {
       <div className="resultmain">
         <MDBContainer>
           <h2 className="h1-responsive font-weight-bold text-center my-5 fontcss">
-            Competitive Coding Winners
+            Competitive Coding Result
           </h2>
         </MDBContainer>
 
         <MDBContainer className="text-center my-5 rankcontainercss">
           <MDBRow style={{ maxWidth: "100%" }}>
-            <MDBCol md="4 rankcolcss">
+            <MDBCol md="4 rankcolcss rankthreecss">
+              <img
+                className="resultimgcss"
+                src="./Images/Result images/CP/amrutha.jpeg"
+              />
+              <h1 className="rankcssh1">3rd Rank</h1>
+              <h5
+                className="font-weight-bold my-4 rankcssh5"
+                style={{ color: "#0072ff" }}
+              >
+                G O Amrutha Praveen
+              </h5>
+            </MDBCol>
+            <MDBCol md="4 rankcolcss rankonecss">
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
@@ -45,7 +58,7 @@ function Competitive_Coding() {
                 Pratik Manoj Jain
               </h5>
             </MDBCol>
-            <MDBCol md="4 rankcolcss">
+            <MDBCol md="4 rankcolcss ranktwocss">
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/himanshu.jpeg"
@@ -56,19 +69,6 @@ function Competitive_Coding() {
                 style={{ color: "#0072ff" }}
               >
                 Himanshu
-              </h5>
-            </MDBCol>
-            <MDBCol md="4 rankcolcss">
-              <img
-                className="resultimgcss"
-                src="./Images/Result images/CP/amrutha.jpeg"
-              />
-              <h1 className="rankcssh1">3rd Rank</h1>
-              <h5
-                className="font-weight-bold my-4 rankcssh5"
-                style={{ color: "#0072ff" }}
-              >
-                G O Amrutha Praveen
               </h5>
             </MDBCol>
           </MDBRow>
