@@ -15,13 +15,23 @@ import {
 import { Card, Button } from "react-bootstrap";
 import "./Result.css";
 import GetCertificate from "../Certificates page/getCertificate";
+import { Alert } from "react-bootstrap";
 
 function Competitive_Coding() {
+  const [show, setShow] = React.useState(true);
   return (
     <div>
       <div style={{ backgroundColor: "#0072ff", width: "100%" }}>
         <Header />
       </div>
+      {/* {show&&
+      <Alert variant="primary" onClose={() => setShow(false)} dismissible>
+        <Alert.Heading className="fontcss">Get Your Certificate</Alert.Heading>
+        <p className="fontcss">
+         You can get your Certificate by going down this page.
+        </p>
+      </Alert>
+      } */}
 
       <div className="resultmain">
         <MDBContainer>
@@ -39,6 +49,7 @@ function Competitive_Coding() {
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/himanshu.jpeg"
+                alt="Himanshu"
               />
 
               <h3 className="h3-top-margin fontcss">Himanshu</h3>
@@ -53,6 +64,7 @@ function Competitive_Coding() {
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
+                alt="Pratik"
               />
               <h3 className="h3-top-margin fontcss ">Pratik Manoj Jain</h3>
               <h4
@@ -66,6 +78,7 @@ function Competitive_Coding() {
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/amrutha.jpeg"
+                alt="Amrutha"
               />
               <h3 className="h3-top-margin fontcss">G O Amrutha Praveen</h3>
               <h4
@@ -88,6 +101,7 @@ function Competitive_Coding() {
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
+                alt="Pratik"
               />
               <h3 className="h3-top-margin fontcss">Pratik Manoj Jain</h3>
             </MDBCol>
@@ -101,6 +115,7 @@ function Competitive_Coding() {
               <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/himanshu.jpeg"
+                alt="Himanshu"
               />
               <h3 className="h3-top-margin fontcss">Himanshu</h3>
             </MDBCol>
@@ -114,12 +129,13 @@ function Competitive_Coding() {
               <img
                 className="resultimgcss fontcss"
                 src="./Images/Result images/CP/amrutha.jpeg"
+                alt="Amrutha"
               />
               <h3 className="h3-top-margin">G O Amrutha Praveen</h3>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-        <GetCertificate />
+        <GetCertificate id="Certificate-section" />
       </div>
       <div style={{ maxWidth: "100%" }}>
         <Bottom />
