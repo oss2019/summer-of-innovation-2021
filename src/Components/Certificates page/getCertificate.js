@@ -31,7 +31,7 @@ const GetCertificate = (props) => {
       <MDBJumbotron fluid>
         <MDBContainer className="main-div">
           <h1 className="h1-responsive font-weight-bold text-center my-5 fontcss getCertificate-class">
-            CERTIFICATE
+            THANK YOU ALL!
           </h1>
 
           <p
