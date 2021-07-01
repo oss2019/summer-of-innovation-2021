@@ -83,6 +83,16 @@
   font-family: "Quicksand", sans-serif;
 }
 
+.submit-css {
+  color: #000428;
+  font-family: "Roboto Mono", monospace;
+}
+
+.submit-alert {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 @keyframes ani1 {
   0% {
     top: 210px;
