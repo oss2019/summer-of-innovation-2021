@@ -93,25 +93,6 @@ function Top() {
           </p>
         </MDBContainer>
       </MDBJumbotron>
-      <MDBJumbotron className="submit-alert">
-        <Alert variant="info">
-          <MDBContainer>
-            <div className="d-flex justify-content-between">
-              <div className="p-2 col-example text-left">
-                <h2 className="submit-css">Case Study Submission Link :</h2>
-              </div>
-              <div className="p-2 col-example text-right">
-                <Button
-                  href="https://forms.gle/zputjgFVLauRq4rXA"
-                  variant="primary"
-                >
-                  SUBMIT
-                </Button>
-              </div>
-            </div>
-          </MDBContainer>
-        </Alert>
-      </MDBJumbotron>
 
       <div style={{ maxWidth: "100%" }}>
         <Event eventIsHere={eventDateCheck} />
