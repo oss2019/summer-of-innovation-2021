@@ -93,6 +93,19 @@
   margin-bottom: 50px;
 }
 
+.margin-adjust {
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+.margin-adjust-top-section {
+  margin-bottom: -100px;
+}
+
+.margin-adjust-bottom-section {
+  margin-top: -100px;
+}
+
 @keyframes ani1 {
   0% {
     top: 210px;

@@ -94,6 +94,138 @@ function Top() {
         </MDBContainer>
       </MDBJumbotron>
 
+      <h2 className=" text-center display-4 font-bold ovcss">
+        Submission Links
+      </h2>
+
+      <MDBJumbotron className="margin-adjust-top-section">
+        <Alert variant="info">
+          <MDBContainer>
+            <div className="d-flex justify-content-between">
+              <div className="p-2 col-example text-left">
+                <h2 className="submit-css">
+                  Web Development Submission Link :
+                </h2>
+              </div>
+              <div className="p-2 col-example text-right">
+                <Button
+                  href=" https://forms.gle/t2Ee6m3KVaQiKYzz9"
+                  variant="primary"
+                >
+                  SUBMIT
+                </Button>
+              </div>
+            </div>
+          </MDBContainer>
+        </Alert>
+      </MDBJumbotron>
+
+      <MDBJumbotron className="margin-adjust">
+        <Alert variant="info">
+          <MDBContainer>
+            <div className="d-flex justify-content-between">
+              <div className="p-2 col-example text-left">
+                <h2 className="submit-css">Robotics Submission Link :</h2>
+              </div>
+              <div className="p-2 col-example text-right">
+                <Button
+                  href=" https://forms.gle/jvkVGYxuiSfaMUg7A"
+                  variant="primary"
+                >
+                  SUBMIT
+                </Button>
+              </div>
+            </div>
+          </MDBContainer>
+        </Alert>
+      </MDBJumbotron>
+
+      <MDBJumbotron className="margin-adjust">
+        <Alert variant="info">
+          <MDBContainer>
+            <div className="d-flex justify-content-between">
+              <div className="p-2 col-example text-left">
+                <h2 className="submit-css">
+                  Object Recognition Submission Link :
+                </h2>
+              </div>
+              <div className="p-2 col-example text-right">
+                <Button
+                  href=" https://forms.gle/VZHWEHKau3vk2fkR8"
+                  variant="primary"
+                >
+                  SUBMIT
+                </Button>
+              </div>
+            </div>
+          </MDBContainer>
+        </Alert>
+      </MDBJumbotron>
+
+      <MDBJumbotron className="margin-adjust">
+        <Alert variant="info">
+          <MDBContainer>
+            <div className="d-flex justify-content-between">
+              <div className="p-2 col-example text-left">
+                <h2 className="submit-css">
+                  Sentiment of Text Submission Link :
+                </h2>
+              </div>
+              <div className="p-2 col-example text-right">
+                <Button
+                  href=" https://forms.gle/cam9E3kKtvbgkoJm6"
+                  variant="primary"
+                >
+                  SUBMIT
+                </Button>
+              </div>
+            </div>
+          </MDBContainer>
+        </Alert>
+      </MDBJumbotron>
+
+      <MDBJumbotron className="margin-adjust">
+        <Alert variant="info">
+          <MDBContainer>
+            <div className="d-flex justify-content-between">
+              <div className="p-2 col-example text-left">
+                <h2 className="submit-css">Twitter Bot Submission Link :</h2>
+              </div>
+              <div className="p-2 col-example text-right">
+                <Button
+                  href="https://forms.gle/eJEeF8aAPSp1W1FD7"
+                  variant="primary"
+                >
+                  SUBMIT
+                </Button>
+              </div>
+            </div>
+          </MDBContainer>
+        </Alert>
+      </MDBJumbotron>
+
+      <MDBJumbotron className="margin-adjust-bottom-section">
+        <Alert variant="info">
+          <MDBContainer>
+            <div className="d-flex justify-content-between">
+              <div className="p-2 col-example text-left">
+                <h2 className="submit-css">
+                  Image classification Submission Link :
+                </h2>
+              </div>
+              <div className="p-2 col-example text-right">
+                <Button
+                  href="https://forms.gle/oMVHvqiLLUnVibXq9"
+                  variant="primary"
+                >
+                  SUBMIT
+                </Button>
+              </div>
+            </div>
+          </MDBContainer>
+        </Alert>
+      </MDBJumbotron>
+
       <div style={{ maxWidth: "100%" }}>
         <Event eventIsHere={eventDateCheck} />
       </div>
