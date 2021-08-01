@@ -106,6 +106,8 @@
   margin-top: -100px;
 }
 
+.responsive-sub-links {
+}
 @keyframes ani1 {
   0% {
     top: 210px;
@@ -243,5 +245,21 @@
     font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .responsive-sub-links {
+    margin-top: -25px;
+    margin-bottom: -25px;
+  }
+
+  .sub-head-responsive {
+    font-size: 18px;
+  }
+
+  .sub-title {
+    font-size: 40px;
+    margin-bottom: 50px;
   }
 }

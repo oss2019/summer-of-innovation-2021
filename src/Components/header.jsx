@@ -83,7 +83,7 @@ const Header = (props) => {
               title="RESULTS"
               style={textCol3}
               renderMenuOnMount={true}
-              className="dropdown-icon-css"
+              className="dropdown-icon-css responsive-results"
             >
               <NavDropdown.Item
                 style={textCol2}

@@ -94,16 +94,16 @@ function Top() {
         </MDBContainer>
       </MDBJumbotron>
 
-      <h2 className=" text-center display-4 font-bold ovcss">
+      <h2 className=" text-center display-4 font-bold ovcss sub-title">
         Submission Links
       </h2>
 
-      <MDBJumbotron className="margin-adjust-top-section">
+      <MDBJumbotron className="margin-adjust-top-section responsive-sub-links">
         <Alert variant="info">
           <MDBContainer>
             <div className="d-flex justify-content-between">
               <div className="p-2 col-example text-left">
-                <h2 className="submit-css">
+                <h2 className="submit-css sub-head-responsive">
                   Web Development Submission Link :
                 </h2>
               </div>
@@ -120,12 +120,14 @@ function Top() {
         </Alert>
       </MDBJumbotron>
 
-      <MDBJumbotron className="margin-adjust">
+      <MDBJumbotron className="margin-adjust responsive-sub-links">
         <Alert variant="info">
           <MDBContainer>
             <div className="d-flex justify-content-between">
               <div className="p-2 col-example text-left">
-                <h2 className="submit-css">Robotics Submission Link :</h2>
+                <h2 className="submit-css sub-head-responsive">
+                  Robotics Submission Link :
+                </h2>
               </div>
               <div className="p-2 col-example text-right">
                 <Button
@@ -140,12 +142,12 @@ function Top() {
         </Alert>
       </MDBJumbotron>
 
-      <MDBJumbotron className="margin-adjust">
+      <MDBJumbotron className="margin-adjust responsive-sub-links">
         <Alert variant="info">
           <MDBContainer>
             <div className="d-flex justify-content-between">
               <div className="p-2 col-example text-left">
-                <h2 className="submit-css">
+                <h2 className="submit-css sub-head-responsive">
                   Object Recognition Submission Link :
                 </h2>
               </div>
@@ -162,12 +164,12 @@ function Top() {
         </Alert>
       </MDBJumbotron>
 
-      <MDBJumbotron className="margin-adjust">
+      <MDBJumbotron className="margin-adjust responsive-sub-links">
         <Alert variant="info">
           <MDBContainer>
             <div className="d-flex justify-content-between">
               <div className="p-2 col-example text-left">
-                <h2 className="submit-css">
+                <h2 className="submit-css sub-head-responsive">
                   Sentiment of Text Submission Link :
                 </h2>
               </div>
@@ -184,12 +186,14 @@ function Top() {
         </Alert>
       </MDBJumbotron>
 
-      <MDBJumbotron className="margin-adjust">
+      <MDBJumbotron className="margin-adjust responsive-sub-links">
         <Alert variant="info">
           <MDBContainer>
             <div className="d-flex justify-content-between">
               <div className="p-2 col-example text-left">
-                <h2 className="submit-css">Twitter Bot Submission Link :</h2>
+                <h2 className="submit-css sub-head-responsive">
+                  Twitter Bot Submission Link :
+                </h2>
               </div>
               <div className="p-2 col-example text-right">
                 <Button
@@ -204,12 +208,12 @@ function Top() {
         </Alert>
       </MDBJumbotron>
 
-      <MDBJumbotron className="margin-adjust-bottom-section">
+      <MDBJumbotron className="margin-adjust-bottom-section responsive-sub-links">
         <Alert variant="info">
           <MDBContainer>
             <div className="d-flex justify-content-between">
               <div className="p-2 col-example text-left">
-                <h2 className="submit-css">
+                <h2 className="submit-css sub-head-responsive">
                   Image classification Submission Link :
                 </h2>
               </div>
