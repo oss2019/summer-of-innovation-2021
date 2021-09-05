@@ -30,7 +30,7 @@ const CertificateModal = (props) => {
                 <Col className="fontcss" xs={12} md={8}>
                   {elem.Name}
                 </Col>
-                <Col xs={6} md={4}>
+                <Col xs={6} md={4} style={{marginTop:"2.5px"}}>
                   <Button className="fontcss download-button" href={elem.link}>
                       Download
                   </Button>
