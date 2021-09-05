@@ -1,7 +1,8 @@
-import { useState, React } from "react";
+import { useState, React, useEffect } from "react";
 import { Alert } from "react-bootstrap";
 import GoogleLogin from "react-google-login";
-import certificateData from "../certificateData.json";
+import certificateData from "../Certificates.json/certificateData.json";
+import CertificateModale from "./certificateModale";
 import Header from "../header";
 import Bottom from "../Bottom";
 import { MDBContainer, MDBJumbotron } from "mdbreact";
@@ -10,17 +11,24 @@ import "./getCertificate.css";
 
 const GetCertificate = (props) => {
   const [show, setShow] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
+  const [obj,updateobj]=useState({
+    events: {
+    event1: {
+        eventName: "Competitive Programming",
+    }}});
 
   const responseGoogle = (response) => {
     const profile = response.getBasicProfile();
     var common_address =
       "https://github.com/oss2019/summer-of-innovation-2021/raw/main/src/Components/Certificates/";
-    var obj = certificateData[profile.getEmail()];
+     updateobj(certificateData[profile.getEmail()]);
     if (obj !== undefined) {
-      var link = common_address + obj.event + obj.link_name;
-      var pdf = document.getElementById("certificate_link");
-      pdf.setAttribute("href", link);
-      pdf.click();
+      setModalShow(true);
+      // var link = common_address + obj.event + obj.link_name;
+      // var pdf = document.getElementById("certificate_link");
+      // pdf.setAttribute("href", link);
+      // pdf.click();
     } else {
       setShow(true);
     }
@@ -68,6 +76,7 @@ const GetCertificate = (props) => {
           />
         </MDBContainer>
       </MDBJumbotron>
+      <CertificateModale show={modalShow} onHide={() => setModalShow(false)} object={obj} />
       <a
         href="https://oss2019.github.io/summer-of-innovation-2021/#/"
         download="Certificate.pdf"

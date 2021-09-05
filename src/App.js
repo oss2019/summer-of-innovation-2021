@@ -7,7 +7,7 @@ import Prizes from "./Components/Prizes.jsx";
 import Competitive_Coding from "./Components/Result/Competitive_Coding.jsx";
 import { Route } from "react-router-dom";
 import "./Components/Timeline.css";
-
+import Modale from "./Components/Certificates page/certificateModale"
 function App() {
   return (
     <div>
@@ -16,6 +16,7 @@ function App() {
       <Route exact path="/timeline" component={Timeline} />
       <Route exact path="/prizes" component={Prizes} />
       <Route exact path="/competitive_coding" component={Competitive_Coding} />
+      <Route exact path="/modale" component={Modale} />
     </div>
   );
 }
