@@ -80,7 +80,7 @@ const Header = (props) => {
               PRIZES
             </Nav.Link>
             <Nav.Link
-              href="http://localhost:3000/summer-of-innovation-2021#/certificates"
+              href="https://oss2019.github.io/summer-of-innovation-2021/#/certificates"
               style={textCol}
             >
               CERTIFICATES
@@ -98,48 +98,42 @@ const Header = (props) => {
                 Competitive Coding
               </NavDropdown.Item>
 
-              {/* <NavDropdown.Item
+              <NavDropdown.Item
                 style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/web_development"
               >
                 Web Development
               </NavDropdown.Item>
               <NavDropdown.Item
                 style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/entrepreneurship"
               >
                 Entrepreneurship
               </NavDropdown.Item>
               <NavDropdown.Item
                 style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
-              >
-                Robotics
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/object_recognition"
               >
                 Object Recognition
               </NavDropdown.Item>
               <NavDropdown.Item
                 style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/image_recognition"
               >
                 Image Classification
               </NavDropdown.Item>
               <NavDropdown.Item
                 style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/sentiment_of_text"
               >
                 Sentiment of Text
               </NavDropdown.Item>
               <NavDropdown.Item
                 style={textCol2}
-                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/twitter_bot"
               >
                 IPL Twitter Bot
-              </NavDropdown.Item> */}
+              </NavDropdown.Item>
             </NavDropdown>
           </MDBNavbarNav>
         </MDBCollapse>
