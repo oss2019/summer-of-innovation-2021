@@ -15,20 +15,14 @@ const GetCertificate = (props) => {
   const [obj,updateobj]=useState({
     events: {
     event1: {
-        eventName: "Competitive Programming",
+        eventName: "",
     }}});
 
   const responseGoogle = (response) => {
     const profile = response.getBasicProfile();
-    var common_address =
-      "https://github.com/oss2019/summer-of-innovation-2021/raw/main/src/Components/Certificates/";
-     updateobj(certificateData[profile.getEmail()]);
+    updateobj(certificateData[profile.getEmail()]);
     if (obj !== undefined) {
       setModalShow(true);
-      // var link = common_address + obj.event + obj.link_name;
-      // var pdf = document.getElementById("certificate_link");
-      // pdf.setAttribute("href", link);
-      // pdf.click();
     } else {
       setShow(true);
     }
