@@ -17,7 +17,7 @@ import "./Result.css";
 // import GetCertificate from "../Certificates page/getCertificate";
 import { Alert } from "react-bootstrap";
 
-function Competitive_Coding() {
+function Web_development() {
   const [show, setShow] = React.useState(true);
   return (
     <div>
@@ -39,36 +39,14 @@ function Competitive_Coding() {
             Result
           </h1>
           <h2 className="h2-responsive font-weight-bold text-center my-5 fontcss">
-            {"{Competitive Coding}"}
+            {"{Web Development}"}
           </h2>
         </MDBContainer>
 
         <MDBContainer className="text-center my-5 rankcontainercss">
-          <MDBRow style={{ maxWidth: "100%" }} className="pcviewcss">
+          <MDBRow>
+            <MDBCol md="4 rankcolcss ranktwocss"></MDBCol>
             <MDBCol md="4 rankcolcss ranktwocss">
-              {/* <img
-                className="resultimgcss"
-                src="./Images/Result images/CP/himanshu.jpeg"
-                alt="Himanshu"
-              /> */}
-
-              <h3 className="h3-top-margin fontcss">Himanshu</h3>
-              <h3 className="h3-top-margin fontcss">180020013</h3>
-              <h4
-                className="font-weight-bold my-4 fontcss"
-                style={{ color: "#0072ff" }}
-              >
-                2nd Rank
-              </h4>
-            </MDBCol>
-            <MDBCol md="4 rankcolcss rankonecss">
-              {/* <img
-                className="resultimgcss"
-                src="./Images/Result images/CP/Pratik.jpeg"
-                alt="Pratik"
-              /> */}
-              <h3 className="h3-top-margin fontcss ">Pratik Manoj Jain</h3>
-              <h3 className="h3-top-margin fontcss">190010034</h3>
               <h4
                 className="font-weight-bold my-4 fontcss"
                 style={{ color: "#0072ff" }}
@@ -76,22 +54,54 @@ function Competitive_Coding() {
                 1st Rank
               </h4>
             </MDBCol>
-            <MDBCol md="4 rankcolcss rankthreecss">
+            <MDBCol md="4 rankcolcss ranktwocss"></MDBCol>
+          </MDBRow>
+          <MDBRow style={{ maxWidth: "100%" }} className="pcviewcss">
+            <MDBCol md="6 rankcolcss rankonecss">
               {/* <img
                 className="resultimgcss"
-                src="./Images/Result images/CP/amrutha.jpeg"
-                alt="Amrutha"
+                src="./Images/Result images/CP/Pratik.jpeg"
+                alt="Pratik"
               /> */}
-              <h3 className="h3-top-margin fontcss">G O Amrutha Praveen</h3>
-              <h3 className="h3-top-margin fontcss">190030015</h3>
+              <h3 className="h3-top-margin fontcss ">Nishant Kumar</h3>
+              <h3 className="h3-top-margin fontcss">180020026</h3>
+            </MDBCol>
+            <MDBCol md="6 rankcolcss">
+              <h3 className="h3-top-margin fontcss ">Aditya raj</h3>
+              <h3 className="h3-top-margin fontcss">180010004</h3>
+            </MDBCol>
+          </MDBRow>
+
+          <MDBRow>
+            <MDBCol md="4 rankcolcss ranktwocss"></MDBCol>
+            <MDBCol md="4 rankcolcss ranktwocss">
               <h4
                 className="font-weight-bold my-4 fontcss"
                 style={{ color: "#0072ff" }}
               >
-                3rd Rank
+                2nd Rank
               </h4>
             </MDBCol>
+            <MDBCol md="4 rankcolcss ranktwocss"></MDBCol>
           </MDBRow>
+          <MDBRow style={{ maxWidth: "100%" }} className="pcviewcss">
+            <MDBCol md="6 rankcolcss ranktwocss">
+              {/* <img
+                className="resultimgcss"
+                src="./Images/Result images/CP/himanshu.jpeg"
+                alt="Himanshu"
+              /> */}
+
+              <h3 className="h3-top-margin fontcss">Keshav Naram</h3>
+              <h3 className="h3-top-margin fontcss">200020029</h3>
+            </MDBCol>
+            <MDBCol md="6 rankcolcss ranktwocss">
+              <h3 className="h3-top-margin fontcss">Samriddha Chattopadhyay</h3>
+              <h3 className="h3-top-margin fontcss">200020040</h3>
+            </MDBCol>
+          </MDBRow>
+
+          {/*Mobile View*/}
 
           <MDBRow style={{ maxWidth: "100%" }} className="mobileviewcss">
             <MDBCol md="4 rankcolcss rankonecss" className="h4-margin-top">
@@ -106,8 +116,10 @@ function Competitive_Coding() {
                 src="./Images/Result images/CP/Pratik.jpeg"
                 alt="Pratik"
               /> */}
-              <h3 className="h3-top-margin fontcss">Pratik Manoj Jain</h3>
-              <h3 className="h3-top-margin fontcss">190010034</h3>
+              <h3 className="h3-top-margin fontcss ">Nishant Kumar</h3>
+              <h3 className="h3-top-margin fontcss">180020026</h3>
+              <h3 className="h3-top-margin fontcss ">Aditya raj</h3>
+              <h3 className="h3-top-margin fontcss">180010004</h3>
             </MDBCol>
             <MDBCol md="4 rankcolcss" className="h4-margin-top">
               <h4
@@ -121,24 +133,11 @@ function Competitive_Coding() {
                 src="./Images/Result images/CP/himanshu.jpeg"
                 alt="Himanshu"
               /> */}
-              <h3 className="h3-top-margin fontcss">Himanshu</h3>
-              <h3 className="h3-top-margin fontcss">180020013</h3>
+              <h3 className="h3-top-margin fontcss">Keshav Naram</h3>
+              <h3 className="h3-top-margin fontcss">200020029</h3>
+              <h3 className="h3-top-margin fontcss">Samriddha Chattopadhyay</h3>
+              <h3 className="h3-top-margin fontcss">200020040</h3>
               {/* <h3 className="h3-top-margin fontcss">1800</h3> */}
-            </MDBCol>
-            <MDBCol md="4 rankcolcss" className="h4-margin-top">
-              <h4
-                className="font-weight-bold my-4 fontcss"
-                style={{ color: "#0072ff" }}
-              >
-                3rd Rank
-              </h4>
-              {/* <img
-                className="resultimgcss fontcss"
-                src="./Images/Result images/CP/amrutha.jpeg"
-                alt="Amrutha"
-              /> */}
-              <h3 className="h3-top-margin">G O Amrutha Praveen</h3>
-              <h3 className="h3-top-margin fontcss">190030015</h3>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -151,4 +150,4 @@ function Competitive_Coding() {
   );
 }
 
-export default Competitive_Coding;
+export default Web_development;

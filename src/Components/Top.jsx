@@ -94,7 +94,7 @@ function Top() {
         </MDBContainer>
       </MDBJumbotron>
 
-      <h2 className=" text-center display-4 font-bold ovcss sub-title">
+      {/* <h2 className=" text-center display-4 font-bold ovcss sub-title">
         Submission Links
       </h2>
 
@@ -228,7 +228,7 @@ function Top() {
             </div>
           </MDBContainer>
         </Alert>
-      </MDBJumbotron>
+      </MDBJumbotron> */}
 
       <div style={{ maxWidth: "100%" }}>
         <Event eventIsHere={eventDateCheck} />
