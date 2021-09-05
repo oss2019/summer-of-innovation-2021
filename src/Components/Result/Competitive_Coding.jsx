@@ -14,7 +14,7 @@ import {
 } from "mdbreact";
 import { Card, Button } from "react-bootstrap";
 import "./Result.css";
-import GetCertificate from "../Certificates page/getCertificate";
+// import GetCertificate from "../Certificates page/getCertificate";
 import { Alert } from "react-bootstrap";
 
 function Competitive_Coding() {
@@ -46,11 +46,11 @@ function Competitive_Coding() {
         <MDBContainer className="text-center my-5 rankcontainercss">
           <MDBRow style={{ maxWidth: "100%" }} className="pcviewcss">
             <MDBCol md="4 rankcolcss ranktwocss">
-              <img
+              {/* <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/himanshu.jpeg"
                 alt="Himanshu"
-              />
+              /> */}
 
               <h3 className="h3-top-margin fontcss">Himanshu</h3>
               <h4
@@ -61,11 +61,11 @@ function Competitive_Coding() {
               </h4>
             </MDBCol>
             <MDBCol md="4 rankcolcss rankonecss">
-              <img
+              {/* <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
                 alt="Pratik"
-              />
+              /> */}
               <h3 className="h3-top-margin fontcss ">Pratik Manoj Jain</h3>
               <h4
                 className="font-weight-bold my-4 fontcss"
@@ -75,11 +75,11 @@ function Competitive_Coding() {
               </h4>
             </MDBCol>
             <MDBCol md="4 rankcolcss rankthreecss">
-              <img
+              {/* <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/amrutha.jpeg"
                 alt="Amrutha"
-              />
+              /> */}
               <h3 className="h3-top-margin fontcss">G O Amrutha Praveen</h3>
               <h4
                 className="font-weight-bold my-4 fontcss"
@@ -98,11 +98,11 @@ function Competitive_Coding() {
               >
                 1st Rank
               </h4>
-              <img
+              {/* <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/Pratik.jpeg"
                 alt="Pratik"
-              />
+              /> */}
               <h3 className="h3-top-margin fontcss">Pratik Manoj Jain</h3>
             </MDBCol>
             <MDBCol md="4 rankcolcss" className="h4-margin-top">
@@ -112,12 +112,13 @@ function Competitive_Coding() {
               >
                 2nd Rank
               </h4>
-              <img
+              {/* <img
                 className="resultimgcss"
                 src="./Images/Result images/CP/himanshu.jpeg"
                 alt="Himanshu"
-              />
+              /> */}
               <h3 className="h3-top-margin fontcss">Himanshu</h3>
+              {/* <h3 className="h3-top-margin fontcss">1800</h3> */}
             </MDBCol>
             <MDBCol md="4 rankcolcss" className="h4-margin-top">
               <h4
@@ -126,16 +127,16 @@ function Competitive_Coding() {
               >
                 3rd Rank
               </h4>
-              <img
+              {/* <img
                 className="resultimgcss fontcss"
                 src="./Images/Result images/CP/amrutha.jpeg"
                 alt="Amrutha"
-              />
+              /> */}
               <h3 className="h3-top-margin">G O Amrutha Praveen</h3>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-        <GetCertificate id="Certificate-section" />
+        {/* <GetCertificate id="Certificate-section" /> */}
       </div>
       <div style={{ maxWidth: "100%" }}>
         <Bottom />

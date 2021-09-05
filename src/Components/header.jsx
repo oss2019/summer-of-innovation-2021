@@ -79,6 +79,12 @@ const Header = (props) => {
             >
               PRIZES
             </Nav.Link>
+            <Nav.Link
+              href="http://localhost:3000/summer-of-innovation-2021#/certificates"
+              style={textCol}
+            >
+              CERTIFICATES
+            </Nav.Link>
             <NavDropdown
               title="RESULTS"
               style={textCol3}
@@ -91,6 +97,49 @@ const Header = (props) => {
               >
                 Competitive Coding
               </NavDropdown.Item>
+
+              {/* <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                Web Development
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                Entrepreneurship
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                Robotics
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                Object Recognition
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                Image Classification
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                Sentiment of Text
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                style={textCol2}
+                href="https://oss2019.github.io/summer-of-innovation-2021/#/competitive_coding"
+              >
+                IPL Twitter Bot
+              </NavDropdown.Item> */}
             </NavDropdown>
           </MDBNavbarNav>
         </MDBCollapse>
