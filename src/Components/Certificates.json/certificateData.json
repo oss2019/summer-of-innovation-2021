@@ -1,0 +1,634 @@
+{
+
+    "180010004@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Web Development",
+                "name": "Web_Development/",
+                "link_name": "SOI_EXCELLENCE_180010004.pdf"
+            }
+        }
+    },
+
+    "180010009@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180010009.pdf"
+            }
+        }
+    },
+
+    "180010012@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180010012.pdf"
+            }
+        }
+    },
+
+    "180010017@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICPORG_180010017.pdf"
+            },
+            "event2": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180010017.pdf"
+            }
+        }
+    },
+
+    "180010029@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICPORG_180010029.pdf"
+            },
+            "event2": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180010029.pdf"
+            }
+        }
+    },
+
+    "180010032@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICPORG_180010032.pdf"
+            },
+            "event2": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180010032.pdf"
+            }
+        }
+    },
+
+    "180020003@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Ashish%20Kupsad.pdf"
+            }
+        }
+    },
+    
+    "180020013@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICP_EXCELLENCE/SOICPW_180020013.pdf"
+            }
+        }
+    },
+
+    "180030001@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Image Classification",
+                "name": "Image_Classification/",
+                "link_name": "SOI_PARTICIPATION_180030001.pdf"
+            },
+            "event2": {
+                "eventName": "Sentiment of Text Analysis",
+                "name": "Sentiment_of_Text_Analysis/",
+                "link_name": "SOI_EXCELLENCE_180030001.pdf"
+            }
+        }
+    },
+
+    "180030003@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Akhil%20Manoj.pdf"
+            }
+        }
+    },
+
+    "180030026@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180030026.pdf"
+            },
+            "event2": {
+                "eventName": "Web Development",
+                "name": "Web_Development/",
+                "link_name": "SOI_EXCELLENCE_180030026.pdf"
+            }
+        }
+    },
+
+
+    "180030040@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_180030040.pdf"
+            }
+        }
+    },
+
+    "190010001@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_190010001.pdf"
+            }
+        }
+    },
+
+    "190010007@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Arun%20Bhat.pdf"
+            }
+        }
+    },
+    
+    "190010008@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Atharva%20Swami.pdf"
+            }
+        }
+    },
+
+    "190010023@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Manav%20Kushwaha.pdf"
+            }
+        }
+    },
+
+    "190010024@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_190010024.pdf"
+            }
+        }
+    },
+
+    "190010028@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190010028.pdf"
+            }
+        }
+    },
+
+    "190010033@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Pranav%20Kanire.pdf"
+            }
+        }
+    },
+
+    "190010034@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICP_EXCELLENCE/SOICPW_190010034.pdf"
+            }
+        }
+    },
+
+    "190010043@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Vansh%20Gupta.pdf"
+            }
+        }
+    },
+
+    "190010045@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Yaswanth%20Reddy%20Y.pdf"
+            }
+        }
+    },
+
+    "190020009@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_190020009.pdf"
+            }
+        }
+    },
+
+    "190020011@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Bhavani%20AM.pdf"
+            }
+        }
+    },
+
+    "190020014@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_PARTICIPATION_190020014.pdf"
+            },
+            "event2": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_190020014.pdf"
+            }
+        }
+    },
+
+    "190030002@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030002.pdf"
+            }
+        }
+    },
+
+    "190030003@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030003.pdf"
+            }
+        }
+    },
+
+    "190030007@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Ayush%20Gupta.pdf"
+            }
+        }
+    },
+
+    "190030015@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICP_EXCELLENCE/SOICPW_190030015.pdf"
+            }
+        }
+    },
+    
+    "190030022@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Khushi%20Yagnik.pdf"
+            }
+        }
+    },
+
+    "190030026@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Mayank%20Mittal.pdf"
+            },
+            "event2": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030026.pdf"
+            }
+        }
+    },
+
+    "190030028@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030028.pdf"
+            }
+        }
+    },
+
+    "190030030@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030030.pdf"
+            }
+        }
+    },
+
+    "190030036@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Saurabh%20ratnaparkhi.pdf"
+            }
+        }
+    },
+
+    "190030038@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_APPRECIATION/SOICPORG_180010017.pdf"
+            },
+            "event2": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030039.pdf"
+            }
+        }
+    },
+
+    "190030039@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_190030039.pdf"
+            }
+        }
+    },
+
+    "190030043@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_T%20Satwik.pdf"
+            }
+        }
+    },
+
+    "190030049@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_190030049.pdf"
+            }
+        }
+    },
+
+    "200010018@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Image Classification",
+                "name": "Image_Classification/",
+                "link_name": "SOI_PARTICIPATION_200010018.pdf"
+            },
+            "event2": {
+                "eventName": "Twitter Bot",
+                "name": "Twitter_Bot/",
+                "link_name": "SOI_EXCELLENCE_200010018.pdf"
+            },
+            "event3": {
+                "eventName": "Web Development",
+                "name": "Web_Development/",
+                "link_name": "SOI_PARTICIPATION_200010018.pdf"
+            }
+        }
+    },
+    
+    "200010023@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Kavali%20Sri%20Vyshnavi%20Devi.pdf"
+            }
+        }
+    },
+
+    "200010042@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Image Classification",
+                "name": "Image_Classification/",
+                "link_name": "SOI_EXCELLENCE_200010042.pdf"
+            },
+            "event2": {
+                "eventName": "Object Recognition",
+                "name": "Object_Recognition/",
+                "link_name": "SOI_EXCELLENCE_200010042.pdf"
+            }
+        }
+    },
+
+    "200020002@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Adithya%20R%20Narayan.pdf"
+            }
+        }
+    },
+
+    "200020019@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_PARTICIPATION_200020019.pdf"
+            }
+        }
+    },
+
+    "200020023@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_PARTICIPATION_200020023.pdf"
+            }
+        }
+    },
+
+    "200020029@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Web Development",
+                "name": "Web_Development/",
+                "link_name": "SOI_EXCELLENCE_200020029.pdf"
+            }
+        }
+    },
+
+    "200020035@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_PARTICIPATION_200020035.pdf"
+            }
+        }
+    },
+
+    "200020040@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Samriddha%20Chattopadhyay.pdf"
+            },
+            "event2": {
+                "eventName": "Web Development",
+                "name": "Web_Development/",
+                "link_name": "SOI_EXCELLENCE_200020040.pdf"
+            }
+        }
+    },
+
+    "200020042@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_PARTICIPATION_200020042.pdf"
+            }
+        }
+    },
+    
+    "200020044@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Shivam%20kumar%20.pdf"
+            }
+        }
+    },
+
+    "200020053@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Case Study",
+                "name": "Case_Study/",
+                "link_name": "SOI_PARTICIPATION_200020053.pdf"
+            }
+        }
+    },
+
+    "200020059@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Web Development",
+                "name": "Web_Development/",
+                "link_name": "SOI_PARTICIPATION_200020059.pdf"
+            }
+        }
+    },
+
+    "200030001@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "name": "Case_Study/",
+                "link_name": "SOI_EXCELLENCE_200030001.pdf"
+            }
+        }
+    },
+
+    "200030010@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_200030010.pdf"
+            }
+        }
+    },
+
+    "200030017@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Devesh%20Kumar.pdf"
+            }
+        }
+    },
+    
+    
+    "200030023@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Competitive Programming",
+                "name": "Competitive_Programming/",
+                "link_name": "SOICP_PARTICIPATION/SOICP_Pranay%20Kamal%20Miriyala.pdf"
+            }
+        }
+    },
+    
+    "200030026@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_200030026.pdf"
+            }
+        }
+    },
+
+    "200030039@iitdh.ac.in": {
+        "events": {
+            "event1": {
+                "eventName": "Organizing committee",
+                "name": "Organizers/",
+                "link_name": "SOI_APPRECIATION_200030039.pdf"
+            }
+        }
+    }
+    
+}

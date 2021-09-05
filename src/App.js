@@ -8,7 +8,7 @@ import Competitive_Coding from "./Components/Result/Competitive_Coding.jsx";
 import Certificate_main from "./Components/Certificates page/Certificate_main";
 import { Route } from "react-router-dom";
 import "./Components/Timeline.css";
-
+import Modale from "./Components/Certificates page/certificateModale";
 function App() {
   return (
     <div>
