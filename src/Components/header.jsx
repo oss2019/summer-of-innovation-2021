@@ -42,6 +42,7 @@ const Header = (props) => {
           <img
             src="./Images/newSoiLogo.png"
             style={{ maxWidth: "70px", maxHeight: "30px" }}
+            alt= "Summer of Innovation Logo"
           />
         </a>
 
