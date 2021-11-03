@@ -48,7 +48,7 @@ function Web_development() {
             <MDBCol md="4 rankcolcss ranktwocss"></MDBCol>
             <MDBCol md="4 rankcolcss ranktwocss">
               <h4
-                className="font-weight-bold my-4 fontcss"
+                className="font-weight-bold my-4 fontcss pcviewcss"
                 style={{ color: "#0072ff" }}
               >
                 1st Rank
@@ -76,7 +76,7 @@ function Web_development() {
             <MDBCol md="4 rankcolcss ranktwocss"></MDBCol>
             <MDBCol md="4 rankcolcss ranktwocss">
               <h4
-                className="font-weight-bold my-4 fontcss"
+                className="font-weight-bold my-4 fontcss pcviewcss"
                 style={{ color: "#0072ff" }}
               >
                 2nd Rank
