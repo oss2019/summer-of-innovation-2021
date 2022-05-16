@@ -2,12 +2,15 @@ import React from 'react';
 import Bottom from './Bottom.jsx';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {GrWorkshop as WorkIcon} from 'react-icons/gr'
-import {MdEventAvailable} from 'react-icons/md'
-import {BiCheck,BiCodeAlt} from 'react-icons/bi'
-import {BsTrophy} from 'react-icons/bs'
-import {AiOutlineLink} from 'react-icons/ai'
-import {  MDBRow, MDBCol, MDBIcon } from "mdbreact";
+// import {GrWorkshop as WorkIcon} from 'react-icons/gr'
+import {GiMaterialsScience} from 'react-icons/gi'
+// import {MdEventAvailable} from 'react-icons/md'
+import {BiCheck,BiCodeAlt,BiBrain} from 'react-icons/bi'
+// import {BsTrophy} from 'react-icons/bs'
+import {SiProbot} from 'react-icons/si'
+import {FaMoneyCheckAlt} from 'react-icons/fa'
+// import {AiOutlineLink} from 'react-icons/ai';
+// import {  MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import './Timeline.css';
 import Header from './header';
 
@@ -31,84 +34,125 @@ return(
     className="vertical-timeline-element--work check"
     contentStyle={{ background: '#0072ff', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='12th of May'
+    date='23rd Of May'
     dateClassName={ 'datecolor' }
     iconStyle={{ background: '#fff', color: '#fff' }}
-    icon={<WorkIcon />}
+    icon={<GiMaterialsScience className='colorcss' />}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Events Begin</h4>
+    <h4 className="vertical-timeline-element-title fontcss">Space Data Science Event Begins</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
     className="vertical-timeline-element--work check"
     contentStyle={{ background: '#0072ff', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='20th of May'
+    date='5th of June'
     dateClassName={ 'datecolor' }
     iconStyle={{ background: '#fff', color: '#fff' }}
-    icon={<MdEventAvailable className="colorcss" />}
+    icon={<GiMaterialsScience className="colorcss" />}
      >
-    <h4 className="vertical-timeline-element-title fontcss fontcss">Last Day to Register</h4>
+    <h4 className="vertical-timeline-element-title fontcss fontcss">Space Data Science Event Ends</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
     className="vertical-timeline-element--work check"
     contentStyle={{ background: '#0072ff', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='13th of June'
+    date='6th of June'
+    dateClassName={ 'datecolor' }
+    iconStyle={{ background: '#fff', color: '#fff' }}
+    icon={<BiBrain className="colorcss"/>}
+     >
+    <h4 className="vertical-timeline-element-title fontcss">Artificial Intelligence Event Begins</h4>
+    </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work check"
+    contentStyle={{ background: '#0072ff', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
+    date='19th of June'
+    dateClassName={ 'datecolor' }
+    iconStyle={{ background: '#fff', color: '#fff' }}
+    icon={<BiBrain className="colorcss"/>}
+     >
+    <h4 className="vertical-timeline-element-title fontcss">Artificial Intelligence Event Ends</h4>
+    </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work check"
+    contentStyle={{ background: '#0072ff', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
+    date='20th of June'
+    dateClassName={ 'datecolor' }
+    iconStyle={{ background: '#fff', color: '#fff' }}
+    icon={<SiProbot className="colorcss" />}
+     >
+    <h4 className="vertical-timeline-element-title fontcss">Robotics Event Begins</h4>
+    </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work check"
+    contentStyle={{ background: '#0072ff', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
+    date='10th of July'
+    dateClassName={ 'datecolor' }
+    iconStyle={{ background: '#fff', color: '#fff' }}
+    icon={<SiProbot className="colorcss" />}
+     >
+    <h4 className="vertical-timeline-element-title fontcss">Robotics Event Ends</h4>
+    </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work check"
+    contentStyle={{ background: '#0072ff', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
+    date='11th of July'
+    dateClassName={ 'datecolor' }
+    iconStyle={{ background: '#fff', color: '#fff' }}
+    icon={<FaMoneyCheckAlt className="colorcss"/>}
+     >
+    <h4 className="vertical-timeline-element-title fontcss">Finance Club Event Begins</h4>
+    </VerticalTimelineElement>
+
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work check"
+    contentStyle={{ background: '#0072ff', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
+    date='11th of July'
     dateClassName={ 'datecolor' }
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<BiCodeAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Codechef Chapters Contest</h4>
+    <h4 className="vertical-timeline-element-title fontcss">Coding Event Begins</h4>
     </VerticalTimelineElement>
+
 
     <VerticalTimelineElement
     className="vertical-timeline-element--work check"
     contentStyle={{ background: '#0072ff', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='1st of July'
+    date='11th of August'
     dateClassName={ 'datecolor' }
     iconStyle={{ background: '#fff', color: '#fff' }}
-    icon={<AiOutlineLink className="colorcss" />}
+    icon={<FaMoneyCheckAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Release Of Submission Link For Case Study</h4>
+    <h4 className="vertical-timeline-element-title fontcss">Finance Club Event Ends</h4>
     </VerticalTimelineElement>
+
+
+
 
     <VerticalTimelineElement
     className="vertical-timeline-element--work check"
     contentStyle={{ background: '#0072ff', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='12th of July'
+    date='11th of August'
     dateClassName={ 'datecolor' }
     iconStyle={{ background: '#fff', color: '#fff' }}
-    icon={<BiCheck className="colorcss" />}
+    icon={<BiCodeAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Last Date To Submit Case Study Report</h4>
-    </VerticalTimelineElement>
-
-    <VerticalTimelineElement
-    className="vertical-timeline-element--work check"
-    contentStyle={{ background: '#0072ff', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='1st of August'
-    dateClassName={ 'datecolor' }
-    iconStyle={{ background: '#fff', color: '#fff' }}
-    icon={<AiOutlineLink className="colorcss" />}
-     >
-    <h4 className="vertical-timeline-element-title fontcss"> Release Of Submission Link For Remaining Events</h4>
-    </VerticalTimelineElement>
-
-    <VerticalTimelineElement
-    className="vertical-timeline-element--work check"
-    contentStyle={{ background: '#0072ff', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #0072ff' }}
-    date='12th of August'
-    dateClassName={ 'datecolor' }
-    iconStyle={{ background: '#fff', color: '#fff' }}
-    icon={<BsTrophy className="colorcss"/>}
-     >
-    <h4 className="vertical-timeline-element-title fontcss">Final Date Of Submission For Each Of The Events</h4>
+    <h4 className="vertical-timeline-element-title fontcss">Coding Event Ends</h4>
     </VerticalTimelineElement>
 
     </VerticalTimeline>
