@@ -1,0 +1,60 @@
+@media (min-width: 900px) {
+  .prize-template-div {
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 20ch auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vw;
+  }
+}
+@media (max-width: 900px) {
+  .prize-template-div {
+    font-size: 24px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vw;
+  }
+}
+
+.places-holder-div {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 1vh;
+}
+
+@media (min-width: 544px) {
+  .places-prize-holder-div {
+    display: grid;
+    grid-template-columns: 10ch 10ch 10ch 10ch;
+    column-gap: 3vw;
+    justify-content: start;
+  }
+}
+@media (max-width: 544px) {
+  .places-prize-holder-div {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 3vw;
+    justify-content: center;
+  }
+}
+
+.x1 {
+  font-weight: 800;
+  font-size: 26px;
+}
+.medal-images {
+  display: inline;
+  height: 30px;
+  width: 23px;
+}
+.name-of-event-div {
+  font-family: "Philosopher", sans-serif;
+}
+.prizename {
+  font-family: system-ui;
+  font-weight: 400;
+}

@@ -40,9 +40,9 @@ const Header = (props) => {
       >
         <a href="https://oss2019.github.io/summer-of-innovation-2021/#/">
           <img
-            src="./Images/newSoiLogo.png"
+            src="./Images/soi2022logo.png"
             style={{ maxWidth: "70px", maxHeight: "30px" }}
-            alt= "Summer of Innovation Logo"
+            alt="Summer of Innovation Logo"
           />
         </a>
 

@@ -69,11 +69,11 @@ function Event(props) {
               }
               className="Nodeco"
             > */}
-              <h2>Robotics</h2>
-              <div class="line">
-                <p> </p>
-              </div>
-              <p>Coming Soon...</p>
+            <h2>Robotics</h2>
+            <div class="line">
+              <p> </p>
+            </div>
+            <p>Coming Soon...</p>
             {/* </a> */}
           </div>
         </div>
@@ -89,11 +89,11 @@ function Event(props) {
               }
               className="Nodeco"
             > */}
-              <h2>Artificial Intelligence </h2>
-              <div class="line">
-                <p> </p>
-              </div>
-              <p>Coming Soon...</p>
+            <h2>Artificial Intelligence </h2>
+            <div class="line">
+              <p> </p>
+            </div>
+            <p>Coming Soon...</p>
             {/* </a> */}
           </div>
         </div>
@@ -111,20 +111,20 @@ function Event(props) {
               }
               className="Nodeco"
             > */}
-              <h2>Finance</h2>
-              <div class="line">
-                <p> </p>
-              </div>
-              <p>Coming Soon...</p>
+            <h2>Finance</h2>
+            <div class="line">
+              <p> </p>
+            </div>
+            <p>Coming Soon...</p>
             {/* </a> */}
           </div>
         </div>
 
-        {/* <div class="card event-card">
+        <div class="card event-card">
           <div className="forAnimation"></div>
-          <div class="card-body event-card-body fimg_css ">
-            <Counter end="74" />
-            <a
+          <div class="card-body event-card-body dimg_css ">
+            {/* <Counter end="74" /> */}
+            {/* <a
               onClick={handleShow}
               href={
                 props.eventIsHere
@@ -132,17 +132,17 @@ function Event(props) {
                   : "#"
               }
               className="Nodeco"
-            >
-              <h2>Object Recognition (AI)</h2>
-              <div class="line">
-                <p></p>
-              </div>
-              <p>Know more</p>
-            </a>
+            > */}
+            <h2>Competitive Programming</h2>
+            <div class="line">
+              <p></p>
+            </div>
+            <p>Coming Soon...</p>
+            {/* </a> */}
           </div>
         </div>
 
-        <div class="card event-card">
+        {/* <div class="card event-card">
           <div className="forAnimation"></div>
           <div class="card-body event-card-body gimg_css ">
             <Counter end="53" />
