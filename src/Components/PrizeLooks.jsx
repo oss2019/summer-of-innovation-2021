@@ -24,6 +24,8 @@ const PrizeLooks = () => {
               <br />
               Also Available On <br />
               [Link]
+              {/* Also Available On <br />
+              [Link] */}
             </div>
           </div>
           <div className="x2">
@@ -59,6 +61,8 @@ const PrizeLooks = () => {
               <br />
               Also Available On <br />
               [Link]
+              {/* Also Available On <br />
+              [Link] */}
             </div>
           </div>
         </div>
@@ -72,6 +76,8 @@ const PrizeLooks = () => {
               <br />
               Also Available On <br />
               [Link]
+              {/* Also Available On <br />
+              [Link] */}
             </div>
           </div>
           <div className="x2">
