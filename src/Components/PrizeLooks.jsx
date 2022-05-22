@@ -22,8 +22,6 @@ const PrizeLooks = () => {
               SOI 2022 <br />
               T-Shirts.
               <br />
-              Also Available On <br />
-              [Link]
               {/* Also Available On <br />
               [Link] */}
             </div>
@@ -59,8 +57,6 @@ const PrizeLooks = () => {
               Limited Edition <br />
               SOI 2022 Mugs.
               <br />
-              Also Available On <br />
-              [Link]
               {/* Also Available On <br />
               [Link] */}
             </div>
@@ -74,8 +70,6 @@ const PrizeLooks = () => {
               Limited Edition <br />
               SOI 2022 KeyChains.
               <br />
-              Also Available On <br />
-              [Link]
               {/* Also Available On <br />
               [Link] */}
             </div>
