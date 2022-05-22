@@ -80,13 +80,13 @@ const Header = (props) => {
             >
               PRIZES
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="https://oss2019.github.io/summer-of-innovation-2021/#/certificates"
               style={textCol}
             >
               CERTIFICATES
-            </Nav.Link>
-            <NavDropdown
+            </Nav.Link> */}
+            {/* <NavDropdown
               title="RESULTS"
               style={textCol3}
               renderMenuOnMount={true}
@@ -135,7 +135,7 @@ const Header = (props) => {
               >
                 IPL Twitter Bot
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
