@@ -42,7 +42,7 @@ function Event(props) {
             <a
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1jCTkicELyVrQ0xBch_2voio9e_qU2u3I/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1Tq2ws-hRMEGvqJK4-aFtFhMyEZpSVf-r/view?usp=sharing"
                   : "#"
               }
               className="Nodeco"
@@ -64,7 +64,7 @@ function Event(props) {
               onClick={handleShow}
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1lzfwBidFNqHcZe0h7VmcO0yfGVNnop4R/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1Tq2ws-hRMEGvqJK4-aFtFhMyEZpSVf-r/view?usp=sharing"
                   : "#"
               }
               className="Nodeco"
