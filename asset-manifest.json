@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/summer-of-innovation-2021/static/css/main.a381e999.chunk.css",
-    "main.js": "/summer-of-innovation-2021/static/js/main.3c2c6751.chunk.js",
-    "main.js.map": "/summer-of-innovation-2021/static/js/main.3c2c6751.chunk.js.map",
+    "main.css": "/summer-of-innovation-2021/static/css/main.c6fc79a3.chunk.css",
+    "main.js": "/summer-of-innovation-2021/static/js/main.ae215280.chunk.js",
+    "main.js.map": "/summer-of-innovation-2021/static/js/main.ae215280.chunk.js.map",
     "runtime-main.js": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js",
     "runtime-main.js.map": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js.map",
     "static/css/2.489a6532.chunk.css": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css",
-    "static/js/2.5cb42531.chunk.js": "/summer-of-innovation-2021/static/js/2.5cb42531.chunk.js",
-    "static/js/2.5cb42531.chunk.js.map": "/summer-of-innovation-2021/static/js/2.5cb42531.chunk.js.map",
+    "static/js/2.1f83a32b.chunk.js": "/summer-of-innovation-2021/static/js/2.1f83a32b.chunk.js",
+    "static/js/2.1f83a32b.chunk.js.map": "/summer-of-innovation-2021/static/js/2.1f83a32b.chunk.js.map",
     "index.html": "/summer-of-innovation-2021/index.html",
     "static/css/2.489a6532.chunk.css.map": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css.map",
-    "static/css/main.a381e999.chunk.css.map": "/summer-of-innovation-2021/static/css/main.a381e999.chunk.css.map",
-    "static/js/2.5cb42531.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.5cb42531.chunk.js.LICENSE.txt",
-    "static/media/Events.css": "/summer-of-innovation-2021/static/media/webdev_u.06108c1c.jpg",
-    "static/media/Top.css": "/summer-of-innovation-2021/static/media/backimg3.a988997d.jpg"
+    "static/css/main.c6fc79a3.chunk.css.map": "/summer-of-innovation-2021/static/css/main.c6fc79a3.chunk.css.map",
+    "static/js/2.1f83a32b.chunk.js.LICENSE.txt": "/summer-of-innovation-2021/static/js/2.1f83a32b.chunk.js.LICENSE.txt",
+    "static/media/Events.css": "/summer-of-innovation-2021/static/media/sentimen_of_text_u.c039b78c.jpg",
+    "static/media/Top.css": "/summer-of-innovation-2021/static/media/backimg3.a988997d.jpg",
+    "static/media/bronze.11f5597d.png": "/summer-of-innovation-2021/static/media/bronze.11f5597d.png",
+    "static/media/gold.d2b500c8.png": "/summer-of-innovation-2021/static/media/gold.d2b500c8.png",
+    "static/media/keychain.cae200c5.png": "/summer-of-innovation-2021/static/media/keychain.cae200c5.png",
+    "static/media/mug.8f0ef950.png": "/summer-of-innovation-2021/static/media/mug.8f0ef950.png",
+    "static/media/silver.afba6a42.png": "/summer-of-innovation-2021/static/media/silver.afba6a42.png",
+    "static/media/PrizeLooks.css": "/summer-of-innovation-2021/static/media/t2.fce9e953.png"
   },
   "entrypoints": [
     "static/js/runtime-main.101a8b7d.js",
     "static/css/2.489a6532.chunk.css",
-    "static/js/2.5cb42531.chunk.js",
-    "static/css/main.a381e999.chunk.css",
-    "static/js/main.3c2c6751.chunk.js"
+    "static/js/2.1f83a32b.chunk.js",
+    "static/css/main.c6fc79a3.chunk.css",
+    "static/js/main.ae215280.chunk.js"
   ]
 }
