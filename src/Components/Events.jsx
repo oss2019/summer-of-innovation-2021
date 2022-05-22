@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Events.css";
 import { Button, Modal } from "react-bootstrap";
-import Counter from "./counter";
+// import Counter from "./counter";
 import "./counter.css";
 function Event(props) {
   const [show, setShow] = useState(false);
@@ -38,16 +38,16 @@ function Event(props) {
         <div onClick={handleShow} class="card event-card">
           <div className="forAnimation"></div>
           <div class="card-body event-card-body aimg_css">
-            <Counter end="117" />
+            {/* <Counter end="117" /> */}
             <a
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1jCTkicELyVrQ0xBch_2voio9e_qU2u3I/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1Tq2ws-hRMEGvqJK4-aFtFhMyEZpSVf-r/view?usp=sharing"
                   : "#"
               }
               className="Nodeco"
             >
-              <h2>Web Development</h2>
+              <h2>Space Data Science</h2>
               <div class="line">
                 <p> </p>
               </div>
@@ -59,50 +59,50 @@ function Event(props) {
         <div class="card event-card">
           <div className="forAnimation"></div>
           <div class="card-body event-card-body cimg_css">
-            <Counter end="49" />
-            <a
+            {/* <Counter end="49" /> */}
+            {/* <a
               onClick={handleShow}
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1lzfwBidFNqHcZe0h7VmcO0yfGVNnop4R/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1Tq2ws-hRMEGvqJK4-aFtFhMyEZpSVf-r/view?usp=sharing"
                   : "#"
               }
               className="Nodeco"
-            >
-              <h2>Robotics</h2>
-              <div class="line">
-                <p> </p>
-              </div>
-              <p>Know more</p>
-            </a>
+            > */}
+            <h2>Robotics</h2>
+            <div class="line">
+              <p> </p>
+            </div>
+            <p>Coming Soon...</p>
+            {/* </a> */}
           </div>
         </div>
 
         <div class="card event-card">
           <div className="forAnimation"></div>
-          <div class="card-body event-card-body dimg_css">
-            <Counter end="40" />
-            <a
+          <div class="card-body event-card-body iimg_css">
+            {/* <Counter end="40" /> */}
+            {/* <a
               onClick={handleShow}
               href={
                 props.eventIsHere ? "https://www.codechef.com/SOIN2021" : "#"
               }
               className="Nodeco"
-            >
-              <h2>Competitive Coding</h2>
-              <div class="line">
-                <p> </p>
-              </div>
-              <p>Know more</p>
-            </a>
+            > */}
+            <h2>Artificial Intelligence </h2>
+            <div class="line">
+              <p> </p>
+            </div>
+            <p>Coming Soon...</p>
+            {/* </a> */}
           </div>
         </div>
 
         <div class="card event-card">
           <div className="forAnimation"></div>
           <div class="card-body event-card-body eimg_css ">
-            <Counter end="62" />
-            <a
+            {/* <Counter end="62" /> */}
+            {/* <a
               onClick={handleShow}
               href={
                 props.eventIsHere
@@ -110,21 +110,21 @@ function Event(props) {
                   : "#"
               }
               className="Nodeco"
-            >
-              <h2>Entrepreneurship</h2>
-              <div class="line">
-                <p> </p>
-              </div>
-              <p>Know more</p>
-            </a>
+            > */}
+            <h2>Finance</h2>
+            <div class="line">
+              <p> </p>
+            </div>
+            <p>Coming Soon...</p>
+            {/* </a> */}
           </div>
         </div>
 
         <div class="card event-card">
           <div className="forAnimation"></div>
-          <div class="card-body event-card-body fimg_css ">
-            <Counter end="74" />
-            <a
+          <div class="card-body event-card-body dimg_css ">
+            {/* <Counter end="74" /> */}
+            {/* <a
               onClick={handleShow}
               href={
                 props.eventIsHere
@@ -132,17 +132,17 @@ function Event(props) {
                   : "#"
               }
               className="Nodeco"
-            >
-              <h2>Object Recognition (AI)</h2>
-              <div class="line">
-                <p></p>
-              </div>
-              <p>Know more</p>
-            </a>
+            > */}
+            <h2>Competitive Programming</h2>
+            <div class="line">
+              <p></p>
+            </div>
+            <p>Coming Soon...</p>
+            {/* </a> */}
           </div>
         </div>
 
-        <div class="card event-card">
+        {/* <div class="card event-card">
           <div className="forAnimation"></div>
           <div class="card-body event-card-body gimg_css ">
             <Counter end="53" />
@@ -206,7 +206,7 @@ function Event(props) {
               <p>Know more</p>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,0 +1,200 @@
+.headerDiv {
+  margin-top: 10vh;
+  font-size: 45px;
+}
+p {
+  padding: 2vh 0;
+}
+
+@media (min-width: 912px) {
+  .prize-pics {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    column-gap: 3vw;
+    row-gap: 10vh;
+    margin: auto;
+    margin-top: 4vh;
+    max-width: 80vw;
+    justify-content: center;
+  }
+  .t-shirts {
+    display: grid;
+    grid-template-columns: 16vw 24vw;
+    column-gap: 10px;
+  }
+  .medals {
+    display: grid;
+    grid-template-columns: 24vw 16vw;
+    column-gap: 10px;
+  }
+  .mugs {
+    display: grid;
+    grid-template-columns: 24vw 16vw;
+    column-gap: 10px;
+  }
+  .keychains {
+    display: grid;
+    grid-template-columns: 16vw 24vw;
+    column-gap: 10px;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+    transition-duration: 0.5s;
+    display: inline;
+  }
+}
+
+@media (max-width: 912px) and (min-width: 530px) {
+  img {
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.5s;
+    display: inline;
+  }
+}
+
+@media (max-width: 530px) {
+  img {
+    height: 150px;
+    width: 150px;
+    transition-duration: 0.5s;
+    display: inline;
+  }
+}
+
+@media (max-width: 912px) {
+  .prize-pics {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 6vh;
+    margin: auto;
+    margin-top: 4vh;
+    max-width: 80vw;
+    justify-content: center;
+  }
+  .t-shirts {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 5vw;
+  }
+  .medals {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 5vw;
+  }
+
+  .mugs {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 5vw;
+  }
+  .keychains {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 5vw;
+  }
+}
+
+img:hover {
+  transform: scale(120%);
+}
+
+img.tshirt-image {
+  content: url("./Images/t1.png");
+  animation-name: changetshirt;
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+img.tshirt-image:hover {
+  animation-play-state: running;
+  transform: scale(120%);
+  transition-duration: 0.5s;
+}
+@keyframes changetshirt {
+  0% {
+    content: url("./Images/t1.png");
+    opacity: 100%;
+  }
+  25% {
+    content: url("./Images/t1.png");
+    opacity: 50%;
+  }
+  50% {
+    content: url("./Images/t2.png");
+    opacity: 100%;
+  }
+  75% {
+    content: url("./Images/t2.png");
+    opacity: 50%;
+  }
+  100% {
+    content: url("./Images/t1.png");
+  }
+}
+
+.small-hr {
+  margin: auto;
+  width: 70%;
+  height: 3px;
+}
+.certificates {
+  width: 80vw;
+  padding-top: 5vh;
+  margin: auto;
+}
+.certificate-header {
+  font-size: 45px;
+}
+.certificate-grid-item {
+  font-size: 20px;
+  font-family: serif;
+}
+.certificate-head {
+  padding: 0;
+  margin: 0;
+}
+.fontawesomeicons {
+  font-size: 50px;
+  color: rgb(0, 114, 255);
+}
+.prize-desc-div {
+  font-size: smaller;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+h4 {
+  color: rgb(0, 114, 255);
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+}
+.certificate-desc-holder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.img-text {
+  font-size: 25px;
+}
+@media (min-width: 650px) {
+  .certificate-grid {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    column-gap: 3vw;
+    row-gap: 3vh;
+  }
+}
+@media (max-width: 650px) {
+  .certificate-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 3vh;
+  }
+}

@@ -1,0 +1,47 @@
+.event-button-holder {
+  text-align: center;
+}
+.event-name-button:hover {
+  background-color: rgb(0, 114, 255);
+  color: white;
+}
+.event-name-button:focus {
+  background-color: rgb(0, 114, 255);
+  color: white;
+}
+@media (min-width: 501px) {
+  .event-name-button {
+    font-size: 33px;
+    font-family: "Cormorant SC", serif;
+    width: 80vw;
+    height: 12vh;
+    background-color: transparent;
+    border: solid 5px rgb(0, 114, 255);
+    margin: 20px 0;
+    transition-duration: 0.5s;
+  }
+}
+@media (max-width: 501px) and (min-width: 439px) {
+  .event-name-button {
+    font-size: 28px;
+    font-family: "Cormorant SC", serif;
+    width: 80vw;
+    height: 12vh;
+    background-color: transparent;
+    border: solid 5px rgb(0, 114, 255);
+    margin: 20px 0;
+    transition-duration: 0.5s;
+  }
+}
+@media (max-width: 439px) {
+  .event-name-button {
+    font-size: 23px;
+    font-family: "Cormorant SC", serif;
+    width: 80vw;
+    height: 12vh;
+    background-color: transparent;
+    border: solid 5px rgb(0, 114, 255);
+    margin: 20px 0;
+    transition-duration: 0.5s;
+  }
+}
