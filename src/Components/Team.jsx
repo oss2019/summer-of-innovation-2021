@@ -45,7 +45,7 @@ function Team() {
           </Col>
         </Row>
 
-        <h3 className="h3class">DESIGN TEAM:</h3>
+        {/* <h3 className="h3class">DESIGN TEAM:</h3>
         <Row className="row">
           <Col size="12" lg="3" md="4" sm="6" className="column">
             <Card
@@ -75,7 +75,7 @@ function Team() {
               email="200020040@iitdh.ac.in"
             />
           </Col>
-        </Row>
+        </Row> */}
 
         <h3 className="h3class">SPACE DATA SCIENCE TEAM: </h3>
         <Row className="row">
