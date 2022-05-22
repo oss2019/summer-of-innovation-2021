@@ -39,7 +39,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<GiMaterialsScience className='colorcss' />}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Space Data Science Event Begins</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Space Data Science Event Begins</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
@@ -51,7 +51,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<GiMaterialsScience className="colorcss" />}
      >
-    <h4 className="vertical-timeline-element-title fontcss fontcss">Space Data Science Event Ends</h4>
+    <h4 className="vertical-timeline-element-title fontcss fontcss" style={{color:'white'}}>Space Data Science Event Ends</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
@@ -63,7 +63,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<BiBrain className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Artificial Intelligence Event Begins</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Artificial Intelligence Event Begins</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
@@ -75,7 +75,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<BiBrain className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Artificial Intelligence Event Ends</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Artificial Intelligence Event Ends</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
@@ -87,7 +87,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<SiProbot className="colorcss" />}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Robotics Event Begins</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Robotics Event Begins</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
@@ -99,7 +99,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<SiProbot className="colorcss" />}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Robotics Event Ends</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Robotics Event Ends</h4>
     </VerticalTimelineElement>
 
     <VerticalTimelineElement
@@ -111,7 +111,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<FaMoneyCheckAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Finance Club Event Begins</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Finance Club Event Begins</h4>
     </VerticalTimelineElement>
 
 
@@ -124,7 +124,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<BiCodeAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Coding Event Begins</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Coding Event Begins</h4>
     </VerticalTimelineElement>
 
 
@@ -137,7 +137,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<FaMoneyCheckAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Finance Club Event Ends</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Finance Club Event Ends</h4>
     </VerticalTimelineElement>
 
 
@@ -152,7 +152,7 @@ return(
     iconStyle={{ background: '#fff', color: '#fff' }}
     icon={<BiCodeAlt className="colorcss"/>}
      >
-    <h4 className="vertical-timeline-element-title fontcss">Coding Event Ends</h4>
+    <h4 className="vertical-timeline-element-title fontcss" style={{color:'white'}}>Coding Event Ends</h4>
     </VerticalTimelineElement>
 
     </VerticalTimeline>
