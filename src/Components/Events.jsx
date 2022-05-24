@@ -42,7 +42,7 @@ function Event(props) {
             <a
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1Tq2ws-hRMEGvqJK4-aFtFhMyEZpSVf-r/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1HVGwGxvw4mw841zHFztzs1rCgyfyPPup/view?usp=sharing"
                   : "#"
               }
               className="Nodeco"
@@ -100,28 +100,6 @@ function Event(props) {
 
         <div class="card event-card">
           <div className="forAnimation"></div>
-          <div class="card-body event-card-body eimg_css ">
-            {/* <Counter end="62" /> */}
-            {/* <a
-              onClick={handleShow}
-              href={
-                props.eventIsHere
-                  ? "https://drive.google.com/file/d/1FWNufsz-9NF7cJP6DDoaz9THsRoadS2p/view?usp=sharing"
-                  : "#"
-              }
-              className="Nodeco"
-            > */}
-            <h2>Finance</h2>
-            <div class="line">
-              <p> </p>
-            </div>
-            <p>Coming Soon...</p>
-            {/* </a> */}
-          </div>
-        </div>
-
-        <div class="card event-card">
-          <div className="forAnimation"></div>
           <div class="card-body event-card-body dimg_css ">
             {/* <Counter end="74" /> */}
             {/* <a
@@ -136,6 +114,28 @@ function Event(props) {
             <h2>Competitive Programming</h2>
             <div class="line">
               <p></p>
+            </div>
+            <p>Coming Soon...</p>
+            {/* </a> */}
+          </div>
+        </div>
+
+        <div class="card event-card">
+          <div className="forAnimation"></div>
+          <div class="card-body event-card-body eimg_css ">
+            {/* <Counter end="62" /> */}
+            {/* <a
+              onClick={handleShow}
+              href={
+                props.eventIsHere
+                  ? "https://drive.google.com/file/d/1FWNufsz-9NF7cJP6DDoaz9THsRoadS2p/view?usp=sharing"
+                  : "#"
+              }
+              className="Nodeco"
+            > */}
+            <h2>Finance</h2>
+            <div class="line">
+              <p> </p>
             </div>
             <p>Coming Soon...</p>
             {/* </a> */}
