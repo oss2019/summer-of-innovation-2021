@@ -49,20 +49,11 @@ const Logos = () => {
             ></img>
           </Col>
           <Col size="12" xl={2} lg="4" md="6" xs="6" style={{ margin: "auto" }}>
-            <Col
-              size="12"
-              xl={2}
-              lg="4"
-              md="6"
-              xs="6"
-              style={{ margin: "auto" }}
-            >
-              <img
-                src="./Images/fin_logo.png"
-                style={{ width: "100%", height: "100%", padding: 2.5 }}
-                alt="Finance IIT Dharwad Logo"
-              ></img>
-            </Col>
+            <img
+              src="./Images/fin_logo.png"
+              style={{ width: "100%", height: "100%", padding: 2.5 }}
+              alt="Finance IIT Dharwad Logo"
+            ></img>
           </Col>
           <Col size="12" xl={2} lg="4" md="6" xs="6" style={{ margin: "auto" }}>
             <img
