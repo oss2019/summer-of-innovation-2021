@@ -83,7 +83,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="25th of June"
+            date="26th of June"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<BiBrain className="colorcss" />}
