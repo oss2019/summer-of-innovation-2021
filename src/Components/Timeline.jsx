@@ -66,7 +66,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="6th of June"
+            date="13th of June"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<BiBrain className="colorcss" />}
@@ -83,7 +83,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="19th of June"
+            date="25th of June"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<BiBrain className="colorcss" />}
@@ -100,7 +100,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="20th of June"
+            date="27th of June"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<SiProbot className="colorcss" />}
@@ -117,7 +117,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="10th of July"
+            date="17th of July"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<SiProbot className="colorcss" />}
@@ -134,7 +134,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="11th of July"
+            date="18th of July"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<FaMoneyCheckAlt className="colorcss" />}
@@ -151,7 +151,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="11th of July"
+            date="18th of July"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<BiCodeAlt className="colorcss" />}
@@ -168,7 +168,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="11th of August"
+            date="18th of August"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<FaMoneyCheckAlt className="colorcss" />}
@@ -185,7 +185,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="11th of August"
+            date="18th of August"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<BiCodeAlt className="colorcss" />}
