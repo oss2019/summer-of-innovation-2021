@@ -58,6 +58,28 @@ function Event(props) {
 
         <div class="card event-card">
           <div className="forAnimation"></div>
+          <div class="card-body event-card-body iimg_css">
+            {/* <Counter end="40" /> */}
+            <a
+              onClick={handleShow}
+              href={
+                props.eventIsHere
+                  ? "https://drive.google.com/file/d/1ov3EhEmWRuaODYSV7PrGEIAFhXHi9zlM/view?usp=sharing"
+                  : "#"
+              }
+              className="Nodeco"
+            >
+              <h2>Artificial Intelligence </h2>
+              <div class="line">
+                <p> </p>
+              </div>
+              <p>Know More</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card event-card">
+          <div className="forAnimation"></div>
           <div class="card-body event-card-body cimg_css">
             {/* <Counter end="49" /> */}
             {/* <a
@@ -70,26 +92,6 @@ function Event(props) {
               className="Nodeco"
             > */}
             <h2>Robotics</h2>
-            <div class="line">
-              <p> </p>
-            </div>
-            <p>Coming Soon...</p>
-            {/* </a> */}
-          </div>
-        </div>
-
-        <div class="card event-card">
-          <div className="forAnimation"></div>
-          <div class="card-body event-card-body iimg_css">
-            {/* <Counter end="40" /> */}
-            {/* <a
-              onClick={handleShow}
-              href={
-                props.eventIsHere ? "https://www.codechef.com/SOIN2021" : "#"
-              }
-              className="Nodeco"
-            > */}
-            <h2>Artificial Intelligence </h2>
             <div class="line">
               <p> </p>
             </div>
