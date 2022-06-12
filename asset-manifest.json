@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/summer-of-innovation-2021/static/css/main.6df04018.chunk.css",
-    "main.js": "/summer-of-innovation-2021/static/js/main.e885db52.chunk.js",
-    "main.js.map": "/summer-of-innovation-2021/static/js/main.e885db52.chunk.js.map",
+    "main.js": "/summer-of-innovation-2021/static/js/main.31e54000.chunk.js",
+    "main.js.map": "/summer-of-innovation-2021/static/js/main.31e54000.chunk.js.map",
     "runtime-main.js": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js",
     "runtime-main.js.map": "/summer-of-innovation-2021/static/js/runtime-main.101a8b7d.js.map",
     "static/css/2.489a6532.chunk.css": "/summer-of-innovation-2021/static/css/2.489a6532.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.489a6532.chunk.css",
     "static/js/2.ee2c0228.chunk.js",
     "static/css/main.6df04018.chunk.css",
-    "static/js/main.e885db52.chunk.js"
+    "static/js/main.31e54000.chunk.js"
   ]
 }
