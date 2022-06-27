@@ -82,21 +82,21 @@ function Event(props) {
           <div className="forAnimation"></div>
           <div class="card-body event-card-body cimg_css">
             {/* <Counter end="49" /> */}
-            {/* <a
+            <a
               onClick={handleShow}
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1Tq2ws-hRMEGvqJK4-aFtFhMyEZpSVf-r/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1C_4fyfONQbB_X3_VQAnmgbLrfR_blyE1/view?usp=sharing"
                   : "#"
               }
               className="Nodeco"
-            > */}
-            <h2>Robotics</h2>
-            <div class="line">
-              <p> </p>
-            </div>
-            <p>Coming Soon...</p>
-            {/* </a> */}
+            >
+              <h2>Robotics</h2>
+              <div class="line">
+                <p> </p>
+              </div>
+              <p>Know More</p>
+            </a>
           </div>
         </div>
 
