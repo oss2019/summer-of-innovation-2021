@@ -117,7 +117,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="17th of July"
+            date="31st of August"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<SiProbot className="colorcss" />}
@@ -151,7 +151,7 @@ const Timeline = () => {
             className="vertical-timeline-element--work check"
             contentStyle={{ background: "#0072ff", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #0072ff" }}
-            date="18th of July"
+            date="21st of July"
             dateClassName={"datecolor"}
             iconStyle={{ background: "#fff", color: "#fff" }}
             icon={<BiCodeAlt className="colorcss" />}

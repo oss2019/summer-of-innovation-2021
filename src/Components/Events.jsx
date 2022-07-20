@@ -104,21 +104,21 @@ function Event(props) {
           <div className="forAnimation"></div>
           <div class="card-body event-card-body dimg_css ">
             {/* <Counter end="74" /> */}
-            {/* <a
+            <a
               onClick={handleShow}
               href={
                 props.eventIsHere
-                  ? "https://drive.google.com/file/d/1yoao6aUrhrg-tosqISDSUGTqHsY-hxG-/view?usp=sharing"
+                  ? "https://drive.google.com/file/d/1n6ET3u3L7BQ8CpaAS_yjC0edDFnxFbM8/view?usp=drivesdk"
                   : "#"
               }
               className="Nodeco"
-            > */}
-            <h2>Competitive Programming</h2>
-            <div class="line">
-              <p></p>
-            </div>
-            <p>Coming Soon...</p>
-            {/* </a> */}
+            >
+              <h2>Competitive Programming</h2>
+              <div class="line">
+                <p></p>
+              </div>
+              <p>Know More</p>
+            </a>
           </div>
         </div>
 
